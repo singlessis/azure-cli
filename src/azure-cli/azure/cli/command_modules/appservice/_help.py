@@ -353,7 +353,18 @@ type: command
 short-summary: Create a Managed Certificate for a hostname in a function app.
 examples:
   - name: Create a Managed Certificate for $fqdn.
-    text: az functionapp config ssl create --resource-group MyResourceGroup --name MyWebapp --hostname $fqdn
+    text: az functionapp config ssl create --resource-group MyResourceGroup --name MyFunctionApp --hostname $fqdn
+"""
+
+helps['functionapp config ssl sync'] = """
+type: command
+short-summary: Sync an imported certificate on a functionapp with its object in KV.
+examples:
+  - name: Sync a certificate with the KV object, using KeyVault name.
+    text: az functionapp config ssl sync --resource-group MyResourceGroup --name MyFunctionApp --certificate-name MyCertificateName --key-vault MyKeyVaultName
+  - name: Sync a certificate with the KV object, using the KeyVault resource id.
+    text: az functionapp config ssl sync --resource-group MyResourceGroup --name MyFunctionApp --certificate-name MyCertificateName --key-vault  '/subscriptions/[sub id]/resourceGroups/[rg]/providers/Microsoft.KeyVault/vaults/[vault name]'
+
 """
 
 helps['functionapp cors'] = """
@@ -1334,6 +1345,14 @@ short-summary: Create a Managed Certificate for a hostname in a webapp app.
 examples:
   - name: Create a Managed Certificate for $fqdn.
     text: az webapp config ssl create --resource-group MyResourceGroup --name MyWebapp --hostname $fqdn
+"""
+
+helps['webapp config ssl sync'] = """
+type: command
+short-summary: Sync an imported certificate on a webapp with its object in KV.
+examples:
+  - name: Sync a certificate with the KV object.
+    text: az webapp config ssl sync --resource-group MyResourceGroup --name MyWebapp --certificate-name MyCertificateName --key-vault MyKeyVault
 """
 
 helps['webapp config storage-account'] = """

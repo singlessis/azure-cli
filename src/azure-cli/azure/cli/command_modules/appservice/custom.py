@@ -2467,14 +2467,43 @@ def import_ssl_cert(cmd, resource_group_name, name, key_vault, key_vault_certifi
     return client.certificates.create_or_update(name=cert_name, resource_group_name=resource_group_name,
                                                 certificate_envelope=kv_cert_def)
 
-def sync_kv_cert(cmd, resource_group_name, name, key_vault, key_vault_certificate_name):
+
+def sync_kv_cert(cmd, resource_group_name, name, certificate_name, key_vault):
     Certificate = cmd.get_models('Certificate')
     client = web_client_factory(cmd.cli_ctx)
     webapp = client.web_apps.get(resource_group_name, name)
     if not webapp:
-        raise CLIError("'{}' app doesn't exist in resource group {}".format(name, resource_group_name))
+        err_msg = "'{}' app doesn't exist in resource group {}".format(name, resource_group_name)
+        raise ResourceNotFoundError(err_msg)
     server_farm_id = webapp.server_farm_id
     location = webapp.location
+
+    cert = client.certificates.get(resource_group_name, certificate_name, filter=f"ServerFarmId eq {'server_farm_id'}")
+
+    if cert is None:
+        no_cert_msg = "Cert with name {} is not associated with this site".format(certificate_name)
+        logger.warning(no_cert_msg)
+        return
+    if cert.key_vault_id is None:
+        no_kv_msg = 'In order to sync a cert, it must be associated with a key vault'
+        logger.warning(no_kv_msg)
+        return
+    if is_valid_resource_id(key_vault):
+        if key_vault != cert.key_vault_id:
+            kv_not_match = "Key Vault id does not match the key vault associated with this cert"
+            logger.warning(kv_not_match)
+            return
+    else:
+        if parse_resource_id(cert.key_vault_id)['name'] != key_vault:
+            kv_name_not_match = "Key Vault name does not match the key vault name associated with this cert"
+            logger.warning(kv_name_not_match)
+            return
+
+    kv_cert_def = Certificate(location=location, key_vault_id=cert.key_vault_id, password='',
+                              key_vault_secret_name=cert.key_vault_secret_name, server_farm_id=server_farm_id)
+
+    return client.certificates.create_or_update(name=certificate_name, resource_group_name=resource_group_name,
+                                                certificate_envelope=kv_cert_def)
 
 
 def create_managed_ssl_cert(cmd, resource_group_name, name, hostname, slot=None):

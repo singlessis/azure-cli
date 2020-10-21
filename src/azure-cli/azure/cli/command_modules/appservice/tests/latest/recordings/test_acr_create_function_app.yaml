@@ -13,15 +13,24 @@ interactions:
       ParameterSetName:
       - --admin-enabled -g -n --sku
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-resource/10.3.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-resource/10.2.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/clitest.rg000001?api-version=2020-10-01
   response:
     body:
+<<<<<<< HEAD
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"brazilsouth","tags":{"product":"azurecli","cause":"automation","date":"2020-12-22T21:32:32Z"},"properties":{"provisioningState":"Succeeded"}}'
+=======
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"brazilsouth","tags":{"product":"azurecli","cause":"automation","date":"2020-12-10T22:26:39Z"},"properties":{"provisioningState":"Succeeded"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -30,7 +39,11 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:32:58 GMT
+=======
+      - Thu, 10 Dec 2020 22:27:07 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -63,24 +76,41 @@ interactions:
       ParameterSetName:
       - --admin-enabled -g -n --sku
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-containerregistry/3.0.0rc16 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-containerregistry/3.0.0rc15 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: PUT
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/functionappacrtest000004?api-version=2020-11-01-preview
   response:
     body:
+<<<<<<< HEAD
       string: '{"sku":{"name":"Basic","tier":"Basic"},"type":"Microsoft.ContainerRegistry/registries","id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/functionappacrtest000004","name":"functionappacrtest000004","location":"brazilsouth","tags":{},"systemData":{"createdBy":"oladewal@microsoft.com","createdByType":"User","createdAt":"2020-12-22T21:33:02.4665627+00:00","lastModifiedBy":"oladewal@microsoft.com","lastModifiedByType":"User","lastModifiedAt":"2020-12-22T21:33:02.4665627+00:00"},"properties":{"loginServer":"functionappacrtest000004.azurecr.io","creationDate":"2020-12-22T21:33:02.4665627Z","provisioningState":"Succeeded","adminUserEnabled":true,"policies":{"quarantinePolicy":{"status":"disabled"},"trustPolicy":{"type":"Notary","status":"disabled"},"retentionPolicy":{"days":7,"lastUpdatedTime":"2020-12-22T21:33:05.3360502+00:00","status":"disabled"}},"encryption":{"status":"disabled"},"dataEndpointEnabled":false,"dataEndpointHostNames":[],"privateEndpointConnections":[],"publicNetworkAccess":"Enabled","networkRuleBypassOptions":"AzureServices","zoneRedundancy":"Disabled"}}'
+=======
+      string: '{"sku":{"name":"Basic","tier":"Basic"},"type":"Microsoft.ContainerRegistry/registries","id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/functionappacrtest000004","name":"functionappacrtest000004","location":"brazilsouth","tags":{},"systemData":{"createdBy":"soingles@microsoft.com","createdByType":"User","createdAt":"2020-12-10T22:27:14.3143002+00:00","lastModifiedBy":"soingles@microsoft.com","lastModifiedByType":"User","lastModifiedAt":"2020-12-10T22:27:14.3143002+00:00"},"properties":{"loginServer":"functionappacrtest000004.azurecr.io","creationDate":"2020-12-10T22:27:14.3143002Z","provisioningState":"Succeeded","adminUserEnabled":true,"policies":{"quarantinePolicy":{"status":"disabled"},"trustPolicy":{"type":"Notary","status":"disabled"},"retentionPolicy":{"days":7,"lastUpdatedTime":"2020-12-10T22:27:17.0049118+00:00","status":"disabled"}},"encryption":{"status":"disabled"},"dataEndpointEnabled":false,"dataEndpointHostNames":[],"privateEndpointConnections":[],"publicNetworkAccess":"Enabled","networkRuleBypassOptions":"AzureServices"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1229'
       content-type:
       - application/json; charset=utf-8
       date:
       - Tue, 22 Dec 2020 21:33:06 GMT
+=======
+      - '1201'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Thu, 10 Dec 2020 22:27:19 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -114,24 +144,41 @@ interactions:
       ParameterSetName:
       - -n -g
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-containerregistry/3.0.0rc16 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-containerregistry/3.0.0rc15 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/functionappacrtest000004?api-version=2020-11-01-preview
   response:
     body:
+<<<<<<< HEAD
       string: '{"sku":{"name":"Basic","tier":"Basic"},"type":"Microsoft.ContainerRegistry/registries","id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/functionappacrtest000004","name":"functionappacrtest000004","location":"brazilsouth","tags":{},"systemData":{"createdBy":"oladewal@microsoft.com","createdByType":"User","createdAt":"2020-12-22T21:33:02.4665627+00:00","lastModifiedBy":"oladewal@microsoft.com","lastModifiedByType":"User","lastModifiedAt":"2020-12-22T21:33:02.4665627+00:00"},"properties":{"loginServer":"functionappacrtest000004.azurecr.io","creationDate":"2020-12-22T21:33:02.4665627Z","provisioningState":"Succeeded","adminUserEnabled":true,"policies":{"quarantinePolicy":{"status":"disabled"},"trustPolicy":{"type":"Notary","status":"disabled"},"retentionPolicy":{"days":7,"lastUpdatedTime":"2020-12-22T21:33:05.3360502+00:00","status":"disabled"}},"encryption":{"status":"disabled"},"dataEndpointEnabled":false,"dataEndpointHostNames":[],"privateEndpointConnections":[],"publicNetworkAccess":"Enabled","networkRuleBypassOptions":"AzureServices","zoneRedundancy":"Disabled"}}'
+=======
+      string: '{"sku":{"name":"Basic","tier":"Basic"},"type":"Microsoft.ContainerRegistry/registries","id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/functionappacrtest000004","name":"functionappacrtest000004","location":"brazilsouth","tags":{},"systemData":{"createdBy":"soingles@microsoft.com","createdByType":"User","createdAt":"2020-12-10T22:27:14.3143002+00:00","lastModifiedBy":"soingles@microsoft.com","lastModifiedByType":"User","lastModifiedAt":"2020-12-10T22:27:14.3143002+00:00"},"properties":{"loginServer":"functionappacrtest000004.azurecr.io","creationDate":"2020-12-10T22:27:14.3143002Z","provisioningState":"Succeeded","adminUserEnabled":true,"policies":{"quarantinePolicy":{"status":"disabled"},"trustPolicy":{"type":"Notary","status":"disabled"},"retentionPolicy":{"days":7,"lastUpdatedTime":"2020-12-10T22:27:17.0049118+00:00","status":"disabled"}},"encryption":{"status":"disabled"},"dataEndpointEnabled":false,"dataEndpointHostNames":[],"privateEndpointConnections":[],"publicNetworkAccess":"Enabled","networkRuleBypassOptions":"AzureServices"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1229'
       content-type:
       - application/json; charset=utf-8
       date:
       - Tue, 22 Dec 2020 21:33:07 GMT
+=======
+      - '1201'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Thu, 10 Dec 2020 22:27:20 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -165,15 +212,24 @@ interactions:
       ParameterSetName:
       - -n -g
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-containerregistry/3.0.0rc16 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-containerregistry/3.0.0rc15 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: POST
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/functionappacrtest000004/listCredentials?api-version=2020-11-01-preview
   response:
     body:
+<<<<<<< HEAD
       string: '{"username":"functionappacrtest000004","passwords":[{"name":"password","value":"oS+j1QrDrW9fL1wAdHtzYS7j1Lb9Y+bW"},{"name":"password2","value":"q5CWDFZ=tbX3YwDHgYy7hKHvsF0cmYnw"}]}'
+=======
+      string: '{"username":"functionappacrtest000004","passwords":[{"name":"password","value":"xzZcBRs2y17Tu4Kyw/Z9VFK2WHlQ3XET"},{"name":"password2","value":"xl9l9MMLE2Pe44Mg/FOhORQ8NzZjnjwn"}]}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -182,7 +238,11 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:33:07 GMT
+=======
+      - Thu, 10 Dec 2020 22:27:21 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -216,15 +276,24 @@ interactions:
       ParameterSetName:
       - -g -n --sku --is-linux
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-resource/10.3.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-resource/10.2.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/clitest.rg000001?api-version=2020-10-01
   response:
     body:
+<<<<<<< HEAD
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"brazilsouth","tags":{"product":"azurecli","cause":"automation","date":"2020-12-22T21:32:32Z"},"properties":{"provisioningState":"Succeeded"}}'
+=======
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"brazilsouth","tags":{"product":"azurecli","cause":"automation","date":"2020-12-10T22:26:39Z"},"properties":{"provisioningState":"Succeeded"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -233,7 +302,11 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:33:08 GMT
+=======
+      - Thu, 10 Dec 2020 22:27:21 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -266,8 +339,13 @@ interactions:
       ParameterSetName:
       - -g -n --sku --is-linux
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: PUT
@@ -275,8 +353,13 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/acrtestplanfunction000003","name":"acrtestplanfunction000003","type":"Microsoft.Web/serverfarms","kind":"linux","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"serverFarmId":8841,"name":"acrtestplanfunction000003","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-BrazilSouthwebspace","subscription":"c0fccd35-1ebc-42f1-bcc3-bfac994fd864","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Brazil
         South","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"linux","resourceGroup":"clitest.rg000001","reserved":true,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-cq1-021_8841","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"S1","tier":"Standard","size":"S1","family":"S","capacity":1}}'
+=======
+        South","properties":{"serverFarmId":8672,"name":"acrtestplanfunction000003","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-BrazilSouthwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Brazil
+        South","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"linux","resourceGroup":"clitest.rg000001","reserved":true,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-cq1-021_8672","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"S1","tier":"Standard","size":"S1","family":"S","capacity":1}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -285,7 +368,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:33:36 GMT
+=======
+      - Thu, 10 Dec 2020 22:27:48 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -324,8 +411,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
@@ -333,8 +425,13 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/acrtestplanfunction000003","name":"acrtestplanfunction000003","type":"Microsoft.Web/serverfarms","kind":"linux","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"serverFarmId":8841,"name":"acrtestplanfunction000003","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-BrazilSouthwebspace","subscription":"c0fccd35-1ebc-42f1-bcc3-bfac994fd864","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Brazil
         South","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"linux","resourceGroup":"clitest.rg000001","reserved":true,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-cq1-021_8841","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"S1","tier":"Standard","size":"S1","family":"S","capacity":1}}'
+=======
+        South","properties":{"serverFarmId":8672,"name":"acrtestplanfunction000003","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-BrazilSouthwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Brazil
+        South","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"linux","resourceGroup":"clitest.rg000001","reserved":true,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-cq1-021_8672","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"S1","tier":"Standard","size":"S1","family":"S","capacity":1}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -343,7 +440,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:33:37 GMT
+=======
+      - Thu, 10 Dec 2020 22:27:50 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -380,12 +481,20 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - AZURECLI/2.16.0 azsdk-python-azure-mgmt-storage/16.0.0 Python/3.7.9 (Windows-10-10.0.19041-SP0)
+=======
+      - AZURECLI/2.14.1 azsdk-python-azure-mgmt-storage/16.0.0 Python/3.8.0 (Windows-10-10.0.19041-SP0)
+>>>>>>> trying to filter
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Storage/storageAccounts/clitestacr000002?api-version=2019-06-01
   response:
     body:
+<<<<<<< HEAD
       string: '{"sku":{"name":"Standard_LRS","tier":"Standard"},"kind":"Storage","id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Storage/storageAccounts/clitestacr000002","name":"clitestacr000002","type":"Microsoft.Storage/storageAccounts","location":"westus","tags":{},"properties":{"privateEndpointConnections":[],"networkAcls":{"bypass":"AzureServices","virtualNetworkRules":[],"ipRules":[],"defaultAction":"Allow"},"supportsHttpsTrafficOnly":true,"encryption":{"services":{"file":{"keyType":"Account","enabled":true,"lastEnabledTime":"2020-12-22T21:32:40.0586506Z"},"blob":{"keyType":"Account","enabled":true,"lastEnabledTime":"2020-12-22T21:32:40.0586506Z"}},"keySource":"Microsoft.Storage"},"provisioningState":"Succeeded","creationTime":"2020-12-22T21:32:39.9961457Z","primaryEndpoints":{"blob":"https://clitestacr000002.blob.core.windows.net/","queue":"https://clitestacr000002.queue.core.windows.net/","table":"https://clitestacr000002.table.core.windows.net/","file":"https://clitestacr000002.file.core.windows.net/"},"primaryLocation":"westus","statusOfPrimary":"available"}}'
+=======
+      string: '{"sku":{"name":"Standard_LRS","tier":"Standard"},"kind":"Storage","id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Storage/storageAccounts/clitestacr000002","name":"clitestacr000002","type":"Microsoft.Storage/storageAccounts","location":"westus","tags":{},"properties":{"privateEndpointConnections":[],"networkAcls":{"bypass":"AzureServices","virtualNetworkRules":[],"ipRules":[],"defaultAction":"Allow"},"supportsHttpsTrafficOnly":true,"encryption":{"services":{"file":{"keyType":"Account","enabled":true,"lastEnabledTime":"2020-12-10T22:26:49.7595252Z"},"blob":{"keyType":"Account","enabled":true,"lastEnabledTime":"2020-12-10T22:26:49.7595252Z"}},"keySource":"Microsoft.Storage"},"provisioningState":"Succeeded","creationTime":"2020-12-10T22:26:49.6657357Z","primaryEndpoints":{"blob":"https://clitestacr000002.blob.core.windows.net/","queue":"https://clitestacr000002.queue.core.windows.net/","table":"https://clitestacr000002.table.core.windows.net/","file":"https://clitestacr000002.file.core.windows.net/"},"primaryLocation":"westus","statusOfPrimary":"available"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -394,7 +503,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:33:37 GMT
+=======
+      - Thu, 10 Dec 2020 22:27:49 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -429,7 +542,11 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - AZURECLI/2.16.0 azsdk-python-azure-mgmt-storage/16.0.0 Python/3.7.9 (Windows-10-10.0.19041-SP0)
+=======
+      - AZURECLI/2.14.1 azsdk-python-azure-mgmt-storage/16.0.0 Python/3.8.0 (Windows-10-10.0.19041-SP0)
+>>>>>>> trying to filter
     method: POST
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Storage/storageAccounts/clitestacr000002/listKeys?api-version=2019-06-01&$expand=kerb
   response:
@@ -443,7 +560,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:33:37 GMT
+=======
+      - Thu, 10 Dec 2020 22:27:50 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -468,7 +589,11 @@ interactions:
       {"serverFarmId": "acrtestplanfunction000003", "reserved": true, "isXenon": false,
       "hyperV": false, "siteConfig": {"netFrameworkVersion": "v4.6", "linuxFxVersion":
       "DOCKER|functionappacrtest000004.azurecr.io/image-name:latest", "appSettings":
+<<<<<<< HEAD
       [{"name": "MACHINEKEY_DecryptionKey", "value": "8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE"},
+=======
+      [{"name": "MACHINEKEY_DecryptionKey", "value": "A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF"},
+>>>>>>> trying to filter
       {"name": "DOCKER_CUSTOM_IMAGE_NAME", "value": "functionappacrtest000004.azurecr.io/image-name:latest"},
       {"name": "FUNCTION_APP_EDIT_MODE", "value": "readOnly"}, {"name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
       "value": "false"}, {"name": "FUNCTIONS_EXTENSION_VERSION", "value": "~2"}, {"name":
@@ -492,8 +617,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: PUT
@@ -501,9 +631,15 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004","name":"functionappacrtest000004","type":"Microsoft.Web/sites","kind":"functionapp,linux,container","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"name":"functionappacrtest000004","state":"Running","hostNames":["functionappacrtest000004.azurewebsites.net"],"webSpace":"clitest.rg000001-BrazilSouthwebspace","selfLink":"https://waws-prod-cq1-021.api.azurewebsites.windows.net:454/subscriptions/00000000-0000-0000-0000-000000000000/webspaces/clitest.rg000001-BrazilSouthwebspace/sites/functionappacrtest000004","repositorySiteName":"functionappacrtest000004","owner":null,"usageState":"Normal","enabled":true,"adminEnabled":true,"enabledHostNames":["functionappacrtest000004.azurewebsites.net","functionappacrtest000004.scm.azurewebsites.net"],"siteProperties":{"metadata":null,"properties":[{"name":"LinuxFxVersion","value":"DOCKER|functionappacrtest000004.azurecr.io/image-name:latest"},{"name":"WindowsFxVersion","value":null}],"appSettings":null},"availabilityState":"Normal","sslCertificates":null,"csrs":[],"cers":null,"siteMode":null,"hostNameSslStates":[{"name":"functionappacrtest000004.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"thumbprint":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Standard"},{"name":"functionappacrtest000004.scm.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"thumbprint":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Repository"}],"computeMode":null,"serverFarm":null,"serverFarmId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/acrtestplanfunction000003","reserved":true,"isXenon":false,"hyperV":false,"lastModifiedTimeUtc":"2020-12-22T21:33:44.5233333","storageRecoveryDefaultState":"Running","contentAvailabilityState":"Normal","runtimeAvailabilityState":"Normal","siteConfig":{"numberOfWorkers":null,"defaultDocuments":null,"netFrameworkVersion":null,"phpVersion":null,"pythonVersion":null,"nodeVersion":null,"powerShellVersion":null,"linuxFxVersion":null,"windowsFxVersion":null,"requestTracingEnabled":null,"remoteDebuggingEnabled":null,"remoteDebuggingVersion":null,"httpLoggingEnabled":null,"azureMonitorLogCategories":null,"acrUseManagedIdentityCreds":false,"acrUserManagedIdentityID":null,"logsDirectorySizeLimit":null,"detailedErrorLoggingEnabled":null,"publishingUsername":null,"publishingPassword":null,"appSettings":null,"azureStorageAccounts":null,"metadata":null,"connectionStrings":null,"machineKey":null,"handlerMappings":null,"documentRoot":null,"scmType":null,"use32BitWorkerProcess":null,"webSocketsEnabled":null,"alwaysOn":null,"javaVersion":null,"javaContainer":null,"javaContainerVersion":null,"appCommandLine":null,"managedPipelineMode":null,"virtualApplications":null,"winAuthAdminState":null,"winAuthTenantState":null,"customAppPoolIdentityAdminState":null,"customAppPoolIdentityTenantState":null,"runtimeADUser":null,"runtimeADUserPassword":null,"loadBalancing":null,"routingRules":null,"experiments":null,"limits":null,"autoHealEnabled":null,"autoHealRules":null,"tracingOptions":null,"vnetName":null,"vnetRouteAllEnabled":null,"vnetPrivatePortsCount":null,"cors":null,"push":null,"apiDefinition":null,"apiManagementConfig":null,"autoSwapSlotName":null,"localMySqlEnabled":null,"managedServiceIdentityId":null,"xManagedServiceIdentityId":null,"ipSecurityRestrictions":[{"ipAddress":"Any","action":"Allow","priority":1,"name":"Allow
         all","description":"Allow all access"}],"scmIpSecurityRestrictions":[{"ipAddress":"Any","action":"Allow","priority":1,"name":"Allow
         all","description":"Allow all access"}],"scmIpSecurityRestrictionsUseMain":null,"http20Enabled":null,"minTlsVersion":null,"scmMinTlsVersion":null,"ftpsState":null,"preWarmedInstanceCount":null,"functionAppScaleLimit":null,"healthCheckPath":null,"fileChangeAuditEnabled":null,"functionsRuntimeScaleMonitoringEnabled":null,"websiteTimeZone":null,"minimumElasticInstanceCount":0},"deploymentId":"functionappacrtest000004","trafficManagerHostNames":null,"sku":"Standard","scmSiteAlsoStopped":false,"targetSwapSlot":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"clientAffinityEnabled":false,"clientCertEnabled":false,"clientCertMode":"Required","clientCertExclusionPaths":null,"hostNamesDisabled":false,"domainVerificationIdentifiers":null,"customDomainVerificationId":"A38F78FE9497D3B1770FCC3D46E5B2B4EF1E6ADB3FA0AE04A2004807BB91FB87","kind":"functionapp,linux,container","inboundIpAddress":"191.233.203.33","possibleInboundIpAddresses":"191.233.203.33","ftpUsername":"functionappacrtest000004\\$functionappacrtest000004","ftpsHostName":"ftps://waws-prod-cq1-021.ftp.azurewebsites.windows.net/site/wwwroot","outboundIpAddresses":"191.233.203.33,191.232.237.67,191.232.232.81,191.232.193.240,191.232.238.181","possibleOutboundIpAddresses":"191.233.203.33,191.232.237.67,191.232.232.81,191.232.193.240,191.232.238.181,191.232.195.211,191.232.199.56,191.234.189.236,191.232.195.246,191.232.198.180","containerSize":0,"dailyMemoryTimeQuota":0,"suspendedTill":null,"siteDisabledReason":0,"functionExecutionUnitsCache":null,"maxNumberOfWorkers":null,"homeStamp":"waws-prod-cq1-021","cloningInfo":null,"hostingEnvironmentId":null,"tags":null,"resourceGroup":"clitest.rg000001","defaultHostName":"functionappacrtest000004.azurewebsites.net","slotSwapStatus":null,"httpsOnly":false,"redundancyMode":"None","inProgressOperationId":null,"geoDistributions":null,"privateEndpointConnections":null,"buildVersion":null,"targetBuildVersion":null,"migrationState":null}}'
+=======
+        South","properties":{"name":"functionappacrtest000004","state":"Running","hostNames":["functionappacrtest000004.azurewebsites.net"],"webSpace":"clitest.rg000001-BrazilSouthwebspace","selfLink":"https://waws-prod-cq1-021.api.azurewebsites.windows.net:454/subscriptions/00000000-0000-0000-0000-000000000000/webspaces/clitest.rg000001-BrazilSouthwebspace/sites/functionappacrtest000004","repositorySiteName":"functionappacrtest000004","owner":null,"usageState":"Normal","enabled":true,"adminEnabled":true,"enabledHostNames":["functionappacrtest000004.azurewebsites.net","functionappacrtest000004.scm.azurewebsites.net"],"siteProperties":{"metadata":null,"properties":[{"name":"LinuxFxVersion","value":"DOCKER|functionappacrtest000004.azurecr.io/image-name:latest"},{"name":"WindowsFxVersion","value":null}],"appSettings":null},"availabilityState":"Normal","sslCertificates":null,"csrs":[],"cers":null,"siteMode":null,"hostNameSslStates":[{"name":"functionappacrtest000004.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"thumbprint":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Standard"},{"name":"functionappacrtest000004.scm.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"thumbprint":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Repository"}],"computeMode":null,"serverFarm":null,"serverFarmId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/acrtestplanfunction000003","reserved":true,"isXenon":false,"hyperV":false,"lastModifiedTimeUtc":"2020-12-10T22:27:59.4666667","storageRecoveryDefaultState":"Running","contentAvailabilityState":"Normal","runtimeAvailabilityState":"Normal","siteConfig":{"numberOfWorkers":null,"defaultDocuments":null,"netFrameworkVersion":null,"phpVersion":null,"pythonVersion":null,"nodeVersion":null,"powerShellVersion":null,"linuxFxVersion":null,"windowsFxVersion":null,"requestTracingEnabled":null,"remoteDebuggingEnabled":null,"remoteDebuggingVersion":null,"httpLoggingEnabled":null,"azureMonitorLogCategories":null,"acrUseManagedIdentityCreds":false,"acrUserManagedIdentityID":null,"logsDirectorySizeLimit":null,"detailedErrorLoggingEnabled":null,"publishingUsername":null,"publishingPassword":null,"appSettings":null,"azureStorageAccounts":null,"metadata":null,"connectionStrings":null,"machineKey":null,"handlerMappings":null,"documentRoot":null,"scmType":null,"use32BitWorkerProcess":null,"webSocketsEnabled":null,"alwaysOn":null,"javaVersion":null,"javaContainer":null,"javaContainerVersion":null,"appCommandLine":null,"managedPipelineMode":null,"virtualApplications":null,"winAuthAdminState":null,"winAuthTenantState":null,"customAppPoolIdentityAdminState":null,"customAppPoolIdentityTenantState":null,"runtimeADUser":null,"runtimeADUserPassword":null,"loadBalancing":null,"routingRules":null,"experiments":null,"limits":null,"autoHealEnabled":null,"autoHealRules":null,"tracingOptions":null,"vnetName":null,"vnetRouteAllEnabled":null,"vnetPrivatePortsCount":null,"cors":null,"push":null,"apiDefinition":null,"apiManagementConfig":null,"autoSwapSlotName":null,"localMySqlEnabled":null,"managedServiceIdentityId":null,"xManagedServiceIdentityId":null,"ipSecurityRestrictions":[{"ipAddress":"Any","action":"Allow","priority":1,"name":"Allow
+        all","description":"Allow all access"}],"scmIpSecurityRestrictions":[{"ipAddress":"Any","action":"Allow","priority":1,"name":"Allow
+        all","description":"Allow all access"}],"scmIpSecurityRestrictionsUseMain":null,"http20Enabled":null,"minTlsVersion":null,"scmMinTlsVersion":null,"ftpsState":null,"preWarmedInstanceCount":null,"functionAppScaleLimit":null,"healthCheckPath":null,"fileChangeAuditEnabled":null,"functionsRuntimeScaleMonitoringEnabled":null,"websiteTimeZone":null,"minimumElasticInstanceCount":0},"deploymentId":"functionappacrtest000004","trafficManagerHostNames":null,"sku":"Standard","scmSiteAlsoStopped":false,"targetSwapSlot":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"clientAffinityEnabled":false,"clientCertEnabled":false,"clientCertMode":"Required","clientCertExclusionPaths":null,"hostNamesDisabled":false,"domainVerificationIdentifiers":null,"customDomainVerificationId":"CD3ED0E77C1655DB516D33D894E3191E8506647D63389E327890C4FE48D5695C","kind":"functionapp,linux,container","inboundIpAddress":"191.233.203.33","possibleInboundIpAddresses":"191.233.203.33","ftpUsername":"functionappacrtest000004\\$functionappacrtest000004","ftpsHostName":"ftps://waws-prod-cq1-021.ftp.azurewebsites.windows.net/site/wwwroot","outboundIpAddresses":"191.233.203.33,191.232.237.67,191.232.232.81,191.232.193.240,191.232.238.181","possibleOutboundIpAddresses":"191.233.203.33,191.232.237.67,191.232.232.81,191.232.193.240,191.232.238.181,191.232.195.211,191.232.199.56,191.234.189.236,191.232.195.246,191.232.198.180","containerSize":0,"dailyMemoryTimeQuota":0,"suspendedTill":null,"siteDisabledReason":0,"functionExecutionUnitsCache":null,"maxNumberOfWorkers":null,"homeStamp":"waws-prod-cq1-021","cloningInfo":null,"hostingEnvironmentId":null,"tags":null,"resourceGroup":"clitest.rg000001","defaultHostName":"functionappacrtest000004.azurewebsites.net","slotSwapStatus":null,"httpsOnly":false,"redundancyMode":"None","inProgressOperationId":null,"geoDistributions":null,"privateEndpointConnections":null,"buildVersion":null,"targetBuildVersion":null,"migrationState":null}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -512,9 +648,15 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:01 GMT
       etag:
       - '"1D6D8AA2085FC20"'
+=======
+      - Thu, 10 Dec 2020 22:28:18 GMT
+      etag:
+      - '"1D6CF43B786D3B5"'
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -558,26 +700,39 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-applicationinsights/0.1.1 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-applicationinsights/0.1.1 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: PUT
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/microsoft.insights/components/functionappacrtest000004?api-version=2015-05-01
   response:
     body:
+<<<<<<< HEAD
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/microsoft.insights/components/functionappacrtest000004","name":"functionappacrtest000004","type":"microsoft.insights/components","location":"brazilsouth","tags":{},"kind":"web","etag":"\"080041f4-0000-0b00-0000-5fe2664e0000\"","properties":{"Ver":"v2","ApplicationId":"functionappacrtest000004","AppId":"d6e7fea3-1588-4ba3-a51d-dd0e3ebb8499","Application_Type":"web","Flow_Type":null,"Request_Source":null,"InstrumentationKey":"ad060c07-2a72-4b87-919a-037d1d11a02d","ConnectionString":"InstrumentationKey=ad060c07-2a72-4b87-919a-037d1d11a02d;IngestionEndpoint=https://brazilsouth-0.in.applicationinsights.azure.com/","Name":"functionappacrtest000004","CreationDate":"2020-12-22T21:34:05.8842531+00:00","TenantId":"c0fccd35-1ebc-42f1-bcc3-bfac994fd864","provisioningState":"Succeeded","SamplingPercentage":null,"RetentionInDays":90,"IngestionMode":"ApplicationInsights","publicNetworkAccessForIngestion":"Enabled","publicNetworkAccessForQuery":"Enabled"}}'
+=======
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/microsoft.insights/components/functionappacrtest000004","name":"functionappacrtest000004","type":"microsoft.insights/components","location":"brazilsouth","tags":{},"kind":"web","etag":"\"49010e8b-0000-0b00-0000-5fd2a1090000\"","properties":{"Ver":"v2","ApplicationId":"functionappacrtest000004","AppId":"20e3b72e-d6e1-478a-8203-4dc2b5501ce8","Application_Type":"web","Flow_Type":null,"Request_Source":null,"InstrumentationKey":"15181b5f-42c3-4231-9e23-3d68e8eb9be1","ConnectionString":"InstrumentationKey=15181b5f-42c3-4231-9e23-3d68e8eb9be1;IngestionEndpoint=https://brazilsouth-0.in.applicationinsights.azure.com/","Name":"functionappacrtest000004","CreationDate":"2020-12-10T22:28:24.784964+00:00","TenantId":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","provisioningState":"Succeeded","SamplingPercentage":null,"RetentionInDays":90,"IngestionMode":"ApplicationInsights","publicNetworkAccessForIngestion":"Enabled","publicNetworkAccessForQuery":"Enabled"}}'
+>>>>>>> trying to filter
     headers:
       access-control-expose-headers:
       - Request-Context
       cache-control:
       - no-cache
       content-length:
-      - '1114'
+      - '1113'
       content-type:
       - application/json; charset=utf-8
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:06 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:28 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -595,7 +750,11 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
+<<<<<<< HEAD
       - '1198'
+=======
+      - '1199'
+>>>>>>> trying to filter
       x-powered-by:
       - ASP.NET
     status:
@@ -618,8 +777,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: POST
@@ -627,7 +791,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey=="}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey=="}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -636,7 +804,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:08 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:30 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -662,11 +834,19 @@ interactions:
       message: OK
 - request:
     body: '{"kind": "<class ''str''>", "properties": {"MACHINEKEY_DecryptionKey":
+<<<<<<< HEAD
       "8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE", "DOCKER_CUSTOM_IMAGE_NAME":
       "functionappacrtest000004.azurecr.io/image-name:latest", "FUNCTION_APP_EDIT_MODE":
       "readOnly", "WEBSITES_ENABLE_APP_SERVICE_STORAGE": "false", "FUNCTIONS_EXTENSION_VERSION":
       "~2", "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==",
       "APPINSIGHTS_INSTRUMENTATIONKEY": "ad060c07-2a72-4b87-919a-037d1d11a02d"}}'
+=======
+      "A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF", "DOCKER_CUSTOM_IMAGE_NAME":
+      "functionappacrtest000004.azurecr.io/image-name:latest", "FUNCTION_APP_EDIT_MODE":
+      "readOnly", "WEBSITES_ENABLE_APP_SERVICE_STORAGE": "false", "FUNCTIONS_EXTENSION_VERSION":
+      "~2", "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==",
+      "APPINSIGHTS_INSTRUMENTATIONKEY": "15181b5f-42c3-4231-9e23-3d68e8eb9be1"}}'
+>>>>>>> trying to filter
     headers:
       Accept:
       - application/json
@@ -684,8 +864,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: PUT
@@ -693,7 +878,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"ad060c07-2a72-4b87-919a-037d1d11a02d"}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"15181b5f-42c3-4231-9e23-3d68e8eb9be1"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -702,9 +891,15 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:10 GMT
       etag:
       - '"1D6D8AA2F17BDD5"'
+=======
+      - Thu, 10 Dec 2020 22:28:30 GMT
+      etag:
+      - '"1D6CF43C9D3C8AB"'
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -722,7 +917,11 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
+<<<<<<< HEAD
       - '1198'
+=======
+      - '1199'
+>>>>>>> trying to filter
       x-powered-by:
       - ASP.NET
     status:
@@ -745,8 +944,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: POST
@@ -754,7 +958,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"ad060c07-2a72-4b87-919a-037d1d11a02d"}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"15181b5f-42c3-4231-9e23-3d68e8eb9be1"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -763,7 +971,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:10 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:31 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -789,6 +1001,7 @@ interactions:
       message: OK
 - request:
     body: '{"kind": "<class ''str''>", "properties": {"MACHINEKEY_DecryptionKey":
+<<<<<<< HEAD
       "8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE", "DOCKER_CUSTOM_IMAGE_NAME":
       "functionappacrtest000004.azurecr.io/image-name:latest", "FUNCTION_APP_EDIT_MODE":
       "readOnly", "WEBSITES_ENABLE_APP_SERVICE_STORAGE": "false", "FUNCTIONS_EXTENSION_VERSION":
@@ -796,6 +1009,15 @@ interactions:
       "APPINSIGHTS_INSTRUMENTATIONKEY": "ad060c07-2a72-4b87-919a-037d1d11a02d", "DOCKER_REGISTRY_SERVER_URL":
       "functionappacrtest000004.azurecr.io", "DOCKER_REGISTRY_SERVER_USERNAME": "functionappacrtest000004",
       "DOCKER_REGISTRY_SERVER_PASSWORD": "oS+j1QrDrW9fL1wAdHtzYS7j1Lb9Y+bW"}}'
+=======
+      "A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF", "DOCKER_CUSTOM_IMAGE_NAME":
+      "functionappacrtest000004.azurecr.io/image-name:latest", "FUNCTION_APP_EDIT_MODE":
+      "readOnly", "WEBSITES_ENABLE_APP_SERVICE_STORAGE": "false", "FUNCTIONS_EXTENSION_VERSION":
+      "~2", "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==",
+      "APPINSIGHTS_INSTRUMENTATIONKEY": "15181b5f-42c3-4231-9e23-3d68e8eb9be1", "DOCKER_REGISTRY_SERVER_URL":
+      "functionappacrtest000004.azurecr.io", "DOCKER_REGISTRY_SERVER_USERNAME": "functionappacrtest000004",
+      "DOCKER_REGISTRY_SERVER_PASSWORD": "xzZcBRs2y17Tu4Kyw/Z9VFK2WHlQ3XET"}}'
+>>>>>>> trying to filter
     headers:
       Accept:
       - application/json
@@ -813,8 +1035,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: PUT
@@ -822,7 +1049,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"ad060c07-2a72-4b87-919a-037d1d11a02d","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"oS+j1QrDrW9fL1wAdHtzYS7j1Lb9Y+bW"}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"15181b5f-42c3-4231-9e23-3d68e8eb9be1","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"xzZcBRs2y17Tu4Kyw/Z9VFK2WHlQ3XET"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -831,9 +1062,15 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:12 GMT
       etag:
       - '"1D6D8AA30932D40"'
+=======
+      - Thu, 10 Dec 2020 22:28:32 GMT
+      etag:
+      - '"1D6CF43CADC4500"'
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -874,8 +1111,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: POST
@@ -883,7 +1125,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"ad060c07-2a72-4b87-919a-037d1d11a02d","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"oS+j1QrDrW9fL1wAdHtzYS7j1Lb9Y+bW"}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"15181b5f-42c3-4231-9e23-3d68e8eb9be1","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"xzZcBRs2y17Tu4Kyw/Z9VFK2WHlQ3XET"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -892,7 +1138,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:13 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:33 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -931,8 +1181,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
@@ -949,7 +1204,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:14 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:34 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -986,8 +1245,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
@@ -995,11 +1259,16 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004","name":"functionappacrtest000004","type":"Microsoft.Web/sites","kind":"functionapp,linux,container","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"name":"functionappacrtest000004","state":"Running","hostNames":["functionappacrtest000004.azurewebsites.net"],"webSpace":"clitest.rg000001-BrazilSouthwebspace","selfLink":"https://waws-prod-cq1-021.api.azurewebsites.windows.net:454/subscriptions/00000000-0000-0000-0000-000000000000/webspaces/clitest.rg000001-BrazilSouthwebspace/sites/functionappacrtest000004","repositorySiteName":"functionappacrtest000004","owner":null,"usageState":"Normal","enabled":true,"adminEnabled":true,"enabledHostNames":["functionappacrtest000004.azurewebsites.net","functionappacrtest000004.scm.azurewebsites.net"],"siteProperties":{"metadata":null,"properties":[{"name":"LinuxFxVersion","value":"DOCKER|functionappacrtest000004.azurecr.io/image-name:latest"},{"name":"WindowsFxVersion","value":null}],"appSettings":null},"availabilityState":"Normal","sslCertificates":null,"csrs":[],"cers":null,"siteMode":null,"hostNameSslStates":[{"name":"functionappacrtest000004.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"thumbprint":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Standard"},{"name":"functionappacrtest000004.scm.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"thumbprint":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Repository"}],"computeMode":null,"serverFarm":null,"serverFarmId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/acrtestplanfunction000003","reserved":true,"isXenon":false,"hyperV":false,"lastModifiedTimeUtc":"2020-12-22T21:34:12.5","storageRecoveryDefaultState":"Running","contentAvailabilityState":"Normal","runtimeAvailabilityState":"Normal","siteConfig":{"numberOfWorkers":null,"defaultDocuments":null,"netFrameworkVersion":null,"phpVersion":null,"pythonVersion":null,"nodeVersion":null,"powerShellVersion":null,"linuxFxVersion":null,"windowsFxVersion":null,"requestTracingEnabled":null,"remoteDebuggingEnabled":null,"remoteDebuggingVersion":null,"httpLoggingEnabled":null,"azureMonitorLogCategories":null,"acrUseManagedIdentityCreds":false,"acrUserManagedIdentityID":null,"logsDirectorySizeLimit":null,"detailedErrorLoggingEnabled":null,"publishingUsername":null,"publishingPassword":null,"appSettings":null,"azureStorageAccounts":null,"metadata":null,"connectionStrings":null,"machineKey":null,"handlerMappings":null,"documentRoot":null,"scmType":null,"use32BitWorkerProcess":null,"webSocketsEnabled":null,"alwaysOn":null,"javaVersion":null,"javaContainer":null,"javaContainerVersion":null,"appCommandLine":null,"managedPipelineMode":null,"virtualApplications":null,"winAuthAdminState":null,"winAuthTenantState":null,"customAppPoolIdentityAdminState":null,"customAppPoolIdentityTenantState":null,"runtimeADUser":null,"runtimeADUserPassword":null,"loadBalancing":null,"routingRules":null,"experiments":null,"limits":null,"autoHealEnabled":null,"autoHealRules":null,"tracingOptions":null,"vnetName":null,"vnetRouteAllEnabled":null,"vnetPrivatePortsCount":null,"cors":null,"push":null,"apiDefinition":null,"apiManagementConfig":null,"autoSwapSlotName":null,"localMySqlEnabled":null,"managedServiceIdentityId":null,"xManagedServiceIdentityId":null,"ipSecurityRestrictions":null,"scmIpSecurityRestrictions":null,"scmIpSecurityRestrictionsUseMain":null,"http20Enabled":null,"minTlsVersion":null,"scmMinTlsVersion":null,"ftpsState":null,"preWarmedInstanceCount":null,"functionAppScaleLimit":null,"healthCheckPath":null,"fileChangeAuditEnabled":null,"functionsRuntimeScaleMonitoringEnabled":null,"websiteTimeZone":null,"minimumElasticInstanceCount":0},"deploymentId":"functionappacrtest000004","trafficManagerHostNames":null,"sku":"Standard","scmSiteAlsoStopped":false,"targetSwapSlot":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"clientAffinityEnabled":false,"clientCertEnabled":false,"clientCertMode":"Required","clientCertExclusionPaths":null,"hostNamesDisabled":false,"domainVerificationIdentifiers":null,"customDomainVerificationId":"A38F78FE9497D3B1770FCC3D46E5B2B4EF1E6ADB3FA0AE04A2004807BB91FB87","kind":"functionapp,linux,container","inboundIpAddress":"191.233.203.33","possibleInboundIpAddresses":"191.233.203.33","ftpUsername":"functionappacrtest000004\\$functionappacrtest000004","ftpsHostName":"ftps://waws-prod-cq1-021.ftp.azurewebsites.windows.net/site/wwwroot","outboundIpAddresses":"191.233.203.33,191.232.237.67,191.232.232.81,191.232.193.240,191.232.238.181","possibleOutboundIpAddresses":"191.233.203.33,191.232.237.67,191.232.232.81,191.232.193.240,191.232.238.181,191.232.195.211,191.232.199.56,191.234.189.236,191.232.195.246,191.232.198.180","containerSize":0,"dailyMemoryTimeQuota":0,"suspendedTill":null,"siteDisabledReason":0,"functionExecutionUnitsCache":null,"maxNumberOfWorkers":null,"homeStamp":"waws-prod-cq1-021","cloningInfo":null,"hostingEnvironmentId":null,"tags":null,"resourceGroup":"clitest.rg000001","defaultHostName":"functionappacrtest000004.azurewebsites.net","slotSwapStatus":null,"httpsOnly":false,"redundancyMode":"None","inProgressOperationId":null,"geoDistributions":null,"privateEndpointConnections":[],"buildVersion":null,"targetBuildVersion":null,"migrationState":null}}'
+=======
+        South","properties":{"name":"functionappacrtest000004","state":"Running","hostNames":["functionappacrtest000004.azurewebsites.net"],"webSpace":"clitest.rg000001-BrazilSouthwebspace","selfLink":"https://waws-prod-cq1-021.api.azurewebsites.windows.net:454/subscriptions/00000000-0000-0000-0000-000000000000/webspaces/clitest.rg000001-BrazilSouthwebspace/sites/functionappacrtest000004","repositorySiteName":"functionappacrtest000004","owner":null,"usageState":"Normal","enabled":true,"adminEnabled":true,"enabledHostNames":["functionappacrtest000004.azurewebsites.net","functionappacrtest000004.scm.azurewebsites.net"],"siteProperties":{"metadata":null,"properties":[{"name":"LinuxFxVersion","value":"DOCKER|functionappacrtest000004.azurecr.io/image-name:latest"},{"name":"WindowsFxVersion","value":null}],"appSettings":null},"availabilityState":"Normal","sslCertificates":null,"csrs":[],"cers":null,"siteMode":null,"hostNameSslStates":[{"name":"functionappacrtest000004.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"thumbprint":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Standard"},{"name":"functionappacrtest000004.scm.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"thumbprint":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Repository"}],"computeMode":null,"serverFarm":null,"serverFarmId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/acrtestplanfunction000003","reserved":true,"isXenon":false,"hyperV":false,"lastModifiedTimeUtc":"2020-12-10T22:28:32.72","storageRecoveryDefaultState":"Running","contentAvailabilityState":"Normal","runtimeAvailabilityState":"Normal","siteConfig":{"numberOfWorkers":null,"defaultDocuments":null,"netFrameworkVersion":null,"phpVersion":null,"pythonVersion":null,"nodeVersion":null,"powerShellVersion":null,"linuxFxVersion":null,"windowsFxVersion":null,"requestTracingEnabled":null,"remoteDebuggingEnabled":null,"remoteDebuggingVersion":null,"httpLoggingEnabled":null,"azureMonitorLogCategories":null,"acrUseManagedIdentityCreds":false,"acrUserManagedIdentityID":null,"logsDirectorySizeLimit":null,"detailedErrorLoggingEnabled":null,"publishingUsername":null,"publishingPassword":null,"appSettings":null,"azureStorageAccounts":null,"metadata":null,"connectionStrings":null,"machineKey":null,"handlerMappings":null,"documentRoot":null,"scmType":null,"use32BitWorkerProcess":null,"webSocketsEnabled":null,"alwaysOn":null,"javaVersion":null,"javaContainer":null,"javaContainerVersion":null,"appCommandLine":null,"managedPipelineMode":null,"virtualApplications":null,"winAuthAdminState":null,"winAuthTenantState":null,"customAppPoolIdentityAdminState":null,"customAppPoolIdentityTenantState":null,"runtimeADUser":null,"runtimeADUserPassword":null,"loadBalancing":null,"routingRules":null,"experiments":null,"limits":null,"autoHealEnabled":null,"autoHealRules":null,"tracingOptions":null,"vnetName":null,"vnetRouteAllEnabled":null,"vnetPrivatePortsCount":null,"cors":null,"push":null,"apiDefinition":null,"apiManagementConfig":null,"autoSwapSlotName":null,"localMySqlEnabled":null,"managedServiceIdentityId":null,"xManagedServiceIdentityId":null,"ipSecurityRestrictions":null,"scmIpSecurityRestrictions":null,"scmIpSecurityRestrictionsUseMain":null,"http20Enabled":null,"minTlsVersion":null,"scmMinTlsVersion":null,"ftpsState":null,"preWarmedInstanceCount":null,"functionAppScaleLimit":null,"healthCheckPath":null,"fileChangeAuditEnabled":null,"functionsRuntimeScaleMonitoringEnabled":null,"websiteTimeZone":null,"minimumElasticInstanceCount":0},"deploymentId":"functionappacrtest000004","trafficManagerHostNames":null,"sku":"Standard","scmSiteAlsoStopped":false,"targetSwapSlot":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"clientAffinityEnabled":false,"clientCertEnabled":false,"clientCertMode":"Required","clientCertExclusionPaths":null,"hostNamesDisabled":false,"domainVerificationIdentifiers":null,"customDomainVerificationId":"CD3ED0E77C1655DB516D33D894E3191E8506647D63389E327890C4FE48D5695C","kind":"functionapp,linux,container","inboundIpAddress":"191.233.203.33","possibleInboundIpAddresses":"191.233.203.33","ftpUsername":"functionappacrtest000004\\$functionappacrtest000004","ftpsHostName":"ftps://waws-prod-cq1-021.ftp.azurewebsites.windows.net/site/wwwroot","outboundIpAddresses":"191.233.203.33,191.232.237.67,191.232.232.81,191.232.193.240,191.232.238.181","possibleOutboundIpAddresses":"191.233.203.33,191.232.237.67,191.232.232.81,191.232.193.240,191.232.238.181,191.232.195.211,191.232.199.56,191.234.189.236,191.232.195.246,191.232.198.180","containerSize":0,"dailyMemoryTimeQuota":0,"suspendedTill":null,"siteDisabledReason":0,"functionExecutionUnitsCache":null,"maxNumberOfWorkers":null,"homeStamp":"waws-prod-cq1-021","cloningInfo":null,"hostingEnvironmentId":null,"tags":null,"resourceGroup":"clitest.rg000001","defaultHostName":"functionappacrtest000004.azurewebsites.net","slotSwapStatus":null,"httpsOnly":false,"redundancyMode":"None","inProgressOperationId":null,"geoDistributions":null,"privateEndpointConnections":[],"buildVersion":null,"targetBuildVersion":null,"migrationState":null}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '5867'
       content-type:
       - application/json
@@ -1007,6 +1276,15 @@ interactions:
       - Tue, 22 Dec 2020 21:34:16 GMT
       etag:
       - '"1D6D8AA30932D40"'
+=======
+      - '5868'
+      content-type:
+      - application/json
+      date:
+      - Thu, 10 Dec 2020 22:28:34 GMT
+      etag:
+      - '"1D6CF43CADC4500"'
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1043,8 +1321,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
@@ -1063,7 +1346,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:15 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:35 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1102,8 +1389,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: POST
@@ -1111,7 +1403,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"ad060c07-2a72-4b87-919a-037d1d11a02d","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"oS+j1QrDrW9fL1wAdHtzYS7j1Lb9Y+bW"}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"15181b5f-42c3-4231-9e23-3d68e8eb9be1","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"xzZcBRs2y17Tu4Kyw/Z9VFK2WHlQ3XET"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -1120,7 +1416,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:17 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:36 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1146,6 +1446,7 @@ interactions:
       message: OK
 - request:
     body: '{"kind": "<class ''str''>", "properties": {"MACHINEKEY_DecryptionKey":
+<<<<<<< HEAD
       "8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE", "DOCKER_CUSTOM_IMAGE_NAME":
       "functionappacrtest000004.azurecr.io/image-name:latest", "FUNCTION_APP_EDIT_MODE":
       "readOnly", "WEBSITES_ENABLE_APP_SERVICE_STORAGE": "false", "FUNCTIONS_EXTENSION_VERSION":
@@ -1153,6 +1454,15 @@ interactions:
       "APPINSIGHTS_INSTRUMENTATIONKEY": "ad060c07-2a72-4b87-919a-037d1d11a02d", "DOCKER_REGISTRY_SERVER_URL":
       "functionappacrtest000004.azurecr.io", "DOCKER_REGISTRY_SERVER_USERNAME": "functionappacrtest000004",
       "DOCKER_REGISTRY_SERVER_PASSWORD": "oS+j1QrDrW9fL1wAdHtzYS7j1Lb9Y+bW"}}'
+=======
+      "A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF", "DOCKER_CUSTOM_IMAGE_NAME":
+      "functionappacrtest000004.azurecr.io/image-name:latest", "FUNCTION_APP_EDIT_MODE":
+      "readOnly", "WEBSITES_ENABLE_APP_SERVICE_STORAGE": "false", "FUNCTIONS_EXTENSION_VERSION":
+      "~2", "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==",
+      "APPINSIGHTS_INSTRUMENTATIONKEY": "15181b5f-42c3-4231-9e23-3d68e8eb9be1", "DOCKER_REGISTRY_SERVER_URL":
+      "functionappacrtest000004.azurecr.io", "DOCKER_REGISTRY_SERVER_USERNAME": "functionappacrtest000004",
+      "DOCKER_REGISTRY_SERVER_PASSWORD": "xzZcBRs2y17Tu4Kyw/Z9VFK2WHlQ3XET"}}'
+>>>>>>> trying to filter
     headers:
       Accept:
       - application/json
@@ -1170,8 +1480,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: PUT
@@ -1179,7 +1494,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"ad060c07-2a72-4b87-919a-037d1d11a02d","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"oS+j1QrDrW9fL1wAdHtzYS7j1Lb9Y+bW"}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"15181b5f-42c3-4231-9e23-3d68e8eb9be1","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"xzZcBRs2y17Tu4Kyw/Z9VFK2WHlQ3XET"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -1188,9 +1507,15 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:18 GMT
       etag:
       - '"1D6D8AA348960AB"'
+=======
+      - Thu, 10 Dec 2020 22:28:37 GMT
+      etag:
+      - '"1D6CF43CD685415"'
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1208,7 +1533,11 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
+<<<<<<< HEAD
       - '1198'
+=======
+      - '1199'
+>>>>>>> trying to filter
       x-powered-by:
       - ASP.NET
     status:
@@ -1250,8 +1579,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: PATCH
@@ -1270,9 +1604,15 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:20 GMT
       etag:
       - '"1D6D8AA348960AB"'
+=======
+      - Thu, 10 Dec 2020 22:28:38 GMT
+      etag:
+      - '"1D6CF43CD685415"'
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1290,7 +1630,11 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
+<<<<<<< HEAD
       - '1199'
+=======
+      - '1198'
+>>>>>>> trying to filter
       x-powered-by:
       - ASP.NET
     status:
@@ -1311,8 +1655,13 @@ interactions:
       - -g -n -s --plan --runtime --deployment-container-image-name --docker-registry-server-user
         --docker-registry-server-password
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
@@ -1331,7 +1680,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:22 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:39 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1369,8 +1722,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: POST
@@ -1378,7 +1736,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"ad060c07-2a72-4b87-919a-037d1d11a02d","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"oS+j1QrDrW9fL1wAdHtzYS7j1Lb9Y+bW"}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"15181b5f-42c3-4231-9e23-3d68e8eb9be1","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"xzZcBRs2y17Tu4Kyw/Z9VFK2WHlQ3XET"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -1387,7 +1749,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:23 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:39 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1425,8 +1791,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
@@ -1443,7 +1814,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:24 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:40 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1479,8 +1854,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
@@ -1499,7 +1879,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:25 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:40 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1537,8 +1921,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: POST
@@ -1546,7 +1935,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"ad060c07-2a72-4b87-919a-037d1d11a02d","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"oS+j1QrDrW9fL1wAdHtzYS7j1Lb9Y+bW"}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"15181b5f-42c3-4231-9e23-3d68e8eb9be1","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"xzZcBRs2y17Tu4Kyw/Z9VFK2WHlQ3XET"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -1555,7 +1948,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:27 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:41 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1593,8 +1990,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
@@ -1611,7 +2013,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:27 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:42 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1647,8 +2053,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
@@ -1667,7 +2078,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:28 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:42 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1703,8 +2118,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
@@ -1723,7 +2143,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:29 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:43 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1761,8 +2185,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: POST
@@ -1770,7 +2199,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"ad060c07-2a72-4b87-919a-037d1d11a02d","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"oS+j1QrDrW9fL1wAdHtzYS7j1Lb9Y+bW"}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"false","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"15181b5f-42c3-4231-9e23-3d68e8eb9be1","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"xzZcBRs2y17Tu4Kyw/Z9VFK2WHlQ3XET"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -1779,7 +2212,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:29 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:44 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1817,8 +2254,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
@@ -1835,7 +2277,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:30 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:45 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1859,12 +2305,21 @@ interactions:
       message: OK
 - request:
     body: '{"kind": "<class ''str''>", "properties": {"MACHINEKEY_DecryptionKey":
+<<<<<<< HEAD
       "8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE", "DOCKER_CUSTOM_IMAGE_NAME":
       "functionappacrtest000004.azurecr.io/image-name:latest", "FUNCTION_APP_EDIT_MODE":
       "readOnly", "FUNCTIONS_EXTENSION_VERSION": "~2", "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==",
       "APPINSIGHTS_INSTRUMENTATIONKEY": "ad060c07-2a72-4b87-919a-037d1d11a02d", "DOCKER_REGISTRY_SERVER_URL":
       "functionappacrtest000004.azurecr.io", "DOCKER_REGISTRY_SERVER_USERNAME": "functionappacrtest000004",
       "DOCKER_REGISTRY_SERVER_PASSWORD": "oS+j1QrDrW9fL1wAdHtzYS7j1Lb9Y+bW"}}'
+=======
+      "A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF", "DOCKER_CUSTOM_IMAGE_NAME":
+      "functionappacrtest000004.azurecr.io/image-name:latest", "FUNCTION_APP_EDIT_MODE":
+      "readOnly", "FUNCTIONS_EXTENSION_VERSION": "~2", "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==",
+      "APPINSIGHTS_INSTRUMENTATIONKEY": "15181b5f-42c3-4231-9e23-3d68e8eb9be1", "DOCKER_REGISTRY_SERVER_URL":
+      "functionappacrtest000004.azurecr.io", "DOCKER_REGISTRY_SERVER_USERNAME": "functionappacrtest000004",
+      "DOCKER_REGISTRY_SERVER_PASSWORD": "xzZcBRs2y17Tu4Kyw/Z9VFK2WHlQ3XET"}}'
+>>>>>>> trying to filter
     headers:
       Accept:
       - application/json
@@ -1881,8 +2336,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: PUT
@@ -1890,7 +2350,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"ad060c07-2a72-4b87-919a-037d1d11a02d","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"oS+j1QrDrW9fL1wAdHtzYS7j1Lb9Y+bW"}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"15181b5f-42c3-4231-9e23-3d68e8eb9be1","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"xzZcBRs2y17Tu4Kyw/Z9VFK2WHlQ3XET"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -1899,9 +2363,15 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:31 GMT
       etag:
       - '"1D6D8AA3BDDB335"'
+=======
+      - Thu, 10 Dec 2020 22:28:46 GMT
+      etag:
+      - '"1D6CF43D326422B"'
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -1960,8 +2430,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: PATCH
@@ -1981,9 +2456,15 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:33 GMT
       etag:
       - '"1D6D8AA3BDDB335"'
+=======
+      - Thu, 10 Dec 2020 22:28:48 GMT
+      etag:
+      - '"1D6CF43D326422B"'
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -2001,7 +2482,11 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
+<<<<<<< HEAD
       - '1199'
+=======
+      - '1198'
+>>>>>>> trying to filter
       x-powered-by:
       - ASP.NET
     status:
@@ -2023,8 +2508,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: POST
@@ -2032,7 +2522,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"ad060c07-2a72-4b87-919a-037d1d11a02d","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"oS+j1QrDrW9fL1wAdHtzYS7j1Lb9Y+bW"}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"15181b5f-42c3-4231-9e23-3d68e8eb9be1","DOCKER_REGISTRY_SERVER_URL":"functionappacrtest000004.azurecr.io","DOCKER_REGISTRY_SERVER_USERNAME":"functionappacrtest000004","DOCKER_REGISTRY_SERVER_PASSWORD":"xzZcBRs2y17Tu4Kyw/Z9VFK2WHlQ3XET"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -2041,7 +2535,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:33 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:49 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -2079,8 +2577,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
@@ -2097,7 +2600,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:34 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:50 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -2121,10 +2628,17 @@ interactions:
       message: OK
 - request:
     body: '{"kind": "<class ''str''>", "properties": {"MACHINEKEY_DecryptionKey":
+<<<<<<< HEAD
       "8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE", "DOCKER_CUSTOM_IMAGE_NAME":
       "functionappacrtest000004.azurecr.io/image-name:latest", "FUNCTION_APP_EDIT_MODE":
       "readOnly", "FUNCTIONS_EXTENSION_VERSION": "~2", "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==",
       "APPINSIGHTS_INSTRUMENTATIONKEY": "ad060c07-2a72-4b87-919a-037d1d11a02d"}}'
+=======
+      "A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF", "DOCKER_CUSTOM_IMAGE_NAME":
+      "functionappacrtest000004.azurecr.io/image-name:latest", "FUNCTION_APP_EDIT_MODE":
+      "readOnly", "FUNCTIONS_EXTENSION_VERSION": "~2", "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==",
+      "APPINSIGHTS_INSTRUMENTATIONKEY": "15181b5f-42c3-4231-9e23-3d68e8eb9be1"}}'
+>>>>>>> trying to filter
     headers:
       Accept:
       - application/json
@@ -2141,8 +2655,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: PUT
@@ -2150,7 +2669,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"ad060c07-2a72-4b87-919a-037d1d11a02d"}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"15181b5f-42c3-4231-9e23-3d68e8eb9be1"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -2159,9 +2682,15 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:35 GMT
       etag:
       - '"1D6D8AA3E1D770B"'
+=======
+      - Thu, 10 Dec 2020 22:28:51 GMT
+      etag:
+      - '"1D6CF43D612F4D5"'
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -2179,7 +2708,11 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
+<<<<<<< HEAD
       - '1198'
+=======
+      - '1197'
+>>>>>>> trying to filter
       x-powered-by:
       - ASP.NET
     status:
@@ -2201,8 +2734,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: POST
@@ -2210,7 +2748,11 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/functionappacrtest000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"Brazil
+<<<<<<< HEAD
         South","properties":{"MACHINEKEY_DecryptionKey":"8480ED815F90D0507E54365133D09613D3D01052FD63C3303FB7918A09EBD5BE","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"ad060c07-2a72-4b87-919a-037d1d11a02d"}}'
+=======
+        South","properties":{"MACHINEKEY_DecryptionKey":"A8C386CF2A76AFEB0DC7DF769892592D4FBDA56E9B7F53DB9404526CBA2F5DFF","DOCKER_CUSTOM_IMAGE_NAME":"functionappacrtest000004.azurecr.io/image-name:latest","FUNCTION_APP_EDIT_MODE":"readOnly","FUNCTIONS_EXTENSION_VERSION":"~2","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitestacr000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"15181b5f-42c3-4231-9e23-3d68e8eb9be1"}}'
+>>>>>>> trying to filter
     headers:
       cache-control:
       - no-cache
@@ -2219,7 +2761,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:35 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:51 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
@@ -2257,8 +2803,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
+<<<<<<< HEAD
       - python/3.7.9 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
+=======
+      - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
+>>>>>>> trying to filter
       accept-language:
       - en-US
     method: GET
@@ -2275,7 +2826,11 @@ interactions:
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
       - Tue, 22 Dec 2020 21:34:37 GMT
+=======
+      - Thu, 10 Dec 2020 22:28:52 GMT
+>>>>>>> trying to filter
       expires:
       - '-1'
       pragma:
