@@ -14,6 +14,7 @@ interactions:
       - -g -n --sku
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-resource/12.0.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
@@ -31,6 +32,17 @@ interactions:
 =======
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"japanwest","tags":{"product":"azurecli","cause":"automation","date":"2020-12-10T22:23:41Z"},"properties":{"provisioningState":"Succeeded"}}'
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-resource/10.2.0 Azure-SDK-For-Python AZURECLI/2.12.1
+      accept-language:
+      - en-US
+    method: GET
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/clitest.rg000001?api-version=2020-06-01
+  response:
+    body:
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"japanwest","tags":{"product":"azurecli","cause":"automation","date":"2020-10-13T17:27:14Z"},"properties":{"provisioningState":"Succeeded"}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
@@ -40,10 +52,14 @@ interactions:
       - application/json; charset=utf-8
       date:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - Fri, 18 Dec 2020 07:07:43 GMT
 =======
       - Thu, 10 Dec 2020 22:23:43 GMT
 >>>>>>> trying to filter
+=======
+      - Tue, 13 Oct 2020 17:27:18 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -77,12 +93,17 @@ interactions:
       - -g -n --sku
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: POST
@@ -99,10 +120,14 @@ interactions:
       - application/json
       date:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - Fri, 18 Dec 2020 07:07:43 GMT
 =======
       - Thu, 10 Dec 2020 22:23:44 GMT
 >>>>>>> trying to filter
+=======
+      - Tue, 13 Oct 2020 17:27:18 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -120,7 +145,11 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
+<<<<<<< HEAD
       - '1198'
+=======
+      - '1199'
+>>>>>>> removing yaml
       x-powered-by:
       - ASP.NET
     status:
@@ -141,6 +170,7 @@ interactions:
       - -g -n --sku
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-resource/12.0.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
@@ -158,6 +188,17 @@ interactions:
 =======
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"japanwest","tags":{"product":"azurecli","cause":"automation","date":"2020-12-10T22:23:41Z"},"properties":{"provisioningState":"Succeeded"}}'
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-resource/10.2.0 Azure-SDK-For-Python AZURECLI/2.12.1
+      accept-language:
+      - en-US
+    method: GET
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/clitest.rg000001?api-version=2020-06-01
+  response:
+    body:
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"japanwest","tags":{"product":"azurecli","cause":"automation","date":"2020-10-13T17:27:14Z"},"properties":{"provisioningState":"Succeeded"}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
@@ -167,10 +208,14 @@ interactions:
       - application/json; charset=utf-8
       date:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - Fri, 18 Dec 2020 07:07:43 GMT
 =======
       - Thu, 10 Dec 2020 22:23:44 GMT
 >>>>>>> trying to filter
+=======
+      - Tue, 13 Oct 2020 17:27:18 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -204,12 +249,17 @@ interactions:
       - -g -n --sku
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: PUT
@@ -218,16 +268,22 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/scale-plan000002","name":"scale-plan000002","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17859,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":0,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":0,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":1,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Shared","siteMode":"Basic","geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17859","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"D1","tier":"Shared","size":"D1","family":"D","capacity":0}}'
 =======
         West","properties":{"serverFarmId":17397,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":0,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":0,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":1,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Shared","siteMode":"Basic","geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17397","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"D1","tier":"Shared","size":"D1","family":"D","capacity":0}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":14307,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":0,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":0,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":1,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Shared","siteMode":"Basic","geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_14307","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"D1","tier":"Shared","size":"D1","family":"D","capacity":0}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1554'
       content-type:
       - application/json
@@ -237,6 +293,13 @@ interactions:
 =======
       - Thu, 10 Dec 2020 22:23:54 GMT
 >>>>>>> trying to filter
+=======
+      - '1534'
+      content-type:
+      - application/json
+      date:
+      - Tue, 13 Oct 2020 17:27:27 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -254,7 +317,11 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
+<<<<<<< HEAD
       - '1194'
+=======
+      - '1199'
+>>>>>>> removing yaml
       x-powered-by:
       - ASP.NET
     status:
@@ -275,12 +342,17 @@ interactions:
       - -g -n --sku
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: GET
@@ -289,16 +361,22 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/scale-plan000002","name":"scale-plan000002","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17859,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":0,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":0,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":1,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Shared","siteMode":"Basic","geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17859","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"D1","tier":"Shared","size":"D1","family":"D","capacity":0}}'
 =======
         West","properties":{"serverFarmId":17397,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":0,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":0,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":1,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Shared","siteMode":"Basic","geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17397","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"D1","tier":"Shared","size":"D1","family":"D","capacity":0}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":14307,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":0,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":0,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":1,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Shared","siteMode":"Basic","geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_14307","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"D1","tier":"Shared","size":"D1","family":"D","capacity":0}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1554'
       content-type:
       - application/json
@@ -308,6 +386,13 @@ interactions:
 =======
       - Thu, 10 Dec 2020 22:23:55 GMT
 >>>>>>> trying to filter
+=======
+      - '1534'
+      content-type:
+      - application/json
+      date:
+      - Tue, 13 Oct 2020 17:27:29 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -344,12 +429,17 @@ interactions:
       - -g -n --sku
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: GET
@@ -358,16 +448,22 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/scale-plan000002","name":"scale-plan000002","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17859,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":0,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":0,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":1,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Shared","siteMode":"Basic","geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17859","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"D1","tier":"Shared","size":"D1","family":"D","capacity":0}}'
 =======
         West","properties":{"serverFarmId":17397,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":0,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":0,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":1,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Shared","siteMode":"Basic","geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17397","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"D1","tier":"Shared","size":"D1","family":"D","capacity":0}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":14307,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":0,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":0,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":1,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Shared","siteMode":"Basic","geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_14307","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"D1","tier":"Shared","size":"D1","family":"D","capacity":0}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1554'
       content-type:
       - application/json
@@ -377,6 +473,13 @@ interactions:
 =======
       - Thu, 10 Dec 2020 22:23:56 GMT
 >>>>>>> trying to filter
+=======
+      - '1534'
+      content-type:
+      - application/json
+      date:
+      - Tue, 13 Oct 2020 17:27:29 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -421,12 +524,17 @@ interactions:
       - -g -n --sku
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: PUT
@@ -435,16 +543,22 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/scale-plan000002","name":"scale-plan000002","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17859,"name":"scale-plan000002","sku":{"name":"S2","tier":"Standard","size":"S2","family":"S","capacity":1},"workerSize":"Medium","workerSizeId":1,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Medium","currentWorkerSizeId":1,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17859","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"S2","tier":"Standard","size":"S2","family":"S","capacity":1}}'
 =======
         West","properties":{"serverFarmId":17397,"name":"scale-plan000002","sku":{"name":"S2","tier":"Standard","size":"S2","family":"S","capacity":1},"workerSize":"Medium","workerSizeId":1,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Medium","currentWorkerSizeId":1,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17397","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"S2","tier":"Standard","size":"S2","family":"S","capacity":1}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":14307,"name":"scale-plan000002","sku":{"name":"S2","tier":"Standard","size":"S2","capacity":1},"workerSize":"Medium","workerSizeId":1,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Medium","currentWorkerSizeId":1,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_14307","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":null,"webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"S2","tier":"Standard","size":"S2","capacity":1}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1631'
       content-type:
       - application/json
@@ -458,6 +572,15 @@ interactions:
       etag:
       - '"1D6CF4329633155"'
 >>>>>>> trying to filter
+=======
+      - '1578'
+      content-type:
+      - application/json
+      date:
+      - Tue, 13 Oct 2020 17:27:41 GMT
+      etag:
+      - '"1D6A18624D2E960"'
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -476,10 +599,14 @@ interactions:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - '1195'
 =======
       - '1196'
 >>>>>>> trying to filter
+=======
+      - '1198'
+>>>>>>> removing yaml
       x-powered-by:
       - ASP.NET
     status:
@@ -500,12 +627,17 @@ interactions:
       - -g -n
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: GET
@@ -514,16 +646,22 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/scale-plan000002","name":"scale-plan000002","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17859,"name":"scale-plan000002","workerSize":"Medium","workerSizeId":1,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Medium","currentWorkerSizeId":1,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17859","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"S2","tier":"Standard","size":"S2","family":"S","capacity":1}}'
 =======
         West","properties":{"serverFarmId":17397,"name":"scale-plan000002","workerSize":"Medium","workerSizeId":1,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Medium","currentWorkerSizeId":1,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17397","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"S2","tier":"Standard","size":"S2","family":"S","capacity":1}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":14307,"name":"scale-plan000002","workerSize":"Medium","workerSizeId":1,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Medium","currentWorkerSizeId":1,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_14307","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"S2","tier":"Standard","size":"S2","family":"S","capacity":1}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1555'
       content-type:
       - application/json
@@ -533,6 +671,13 @@ interactions:
 =======
       - Thu, 10 Dec 2020 22:24:07 GMT
 >>>>>>> trying to filter
+=======
+      - '1535'
+      content-type:
+      - application/json
+      date:
+      - Tue, 13 Oct 2020 17:27:42 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -569,12 +714,17 @@ interactions:
       - -g -n --sku
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: GET
@@ -583,16 +733,22 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/scale-plan000002","name":"scale-plan000002","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17859,"name":"scale-plan000002","workerSize":"Medium","workerSizeId":1,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Medium","currentWorkerSizeId":1,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17859","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"S2","tier":"Standard","size":"S2","family":"S","capacity":1}}'
 =======
         West","properties":{"serverFarmId":17397,"name":"scale-plan000002","workerSize":"Medium","workerSizeId":1,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Medium","currentWorkerSizeId":1,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17397","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"S2","tier":"Standard","size":"S2","family":"S","capacity":1}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":14307,"name":"scale-plan000002","workerSize":"Medium","workerSizeId":1,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Medium","currentWorkerSizeId":1,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_14307","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"S2","tier":"Standard","size":"S2","family":"S","capacity":1}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1555'
       content-type:
       - application/json
@@ -602,6 +758,13 @@ interactions:
 =======
       - Thu, 10 Dec 2020 22:24:08 GMT
 >>>>>>> trying to filter
+=======
+      - '1535'
+      content-type:
+      - application/json
+      date:
+      - Tue, 13 Oct 2020 17:27:43 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -638,12 +801,17 @@ interactions:
       - -g -n --sku
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: GET
@@ -652,16 +820,22 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/scale-plan000002","name":"scale-plan000002","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17859,"name":"scale-plan000002","workerSize":"Medium","workerSizeId":1,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Medium","currentWorkerSizeId":1,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17859","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"S2","tier":"Standard","size":"S2","family":"S","capacity":1}}'
 =======
         West","properties":{"serverFarmId":17397,"name":"scale-plan000002","workerSize":"Medium","workerSizeId":1,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Medium","currentWorkerSizeId":1,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17397","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"S2","tier":"Standard","size":"S2","family":"S","capacity":1}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":14307,"name":"scale-plan000002","workerSize":"Medium","workerSizeId":1,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Medium","currentWorkerSizeId":1,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_14307","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"S2","tier":"Standard","size":"S2","family":"S","capacity":1}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1555'
       content-type:
       - application/json
@@ -671,6 +845,13 @@ interactions:
 =======
       - Thu, 10 Dec 2020 22:24:09 GMT
 >>>>>>> trying to filter
+=======
+      - '1535'
+      content-type:
+      - application/json
+      date:
+      - Tue, 13 Oct 2020 17:27:44 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -714,12 +895,17 @@ interactions:
       - -g -n --sku
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: PUT
@@ -728,16 +914,22 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/scale-plan000002","name":"scale-plan000002","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17859,"name":"scale-plan000002","sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1},"workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17859","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 =======
         West","properties":{"serverFarmId":17397,"name":"scale-plan000002","sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1},"workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17397","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":14307,"name":"scale-plan000002","sku":{"name":"B1","tier":"Basic","size":"B1","capacity":1},"workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_14307","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":null,"webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"B1","tier":"Basic","size":"B1","capacity":1}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1626'
       content-type:
       - application/json
@@ -747,6 +939,13 @@ interactions:
 =======
       - Thu, 10 Dec 2020 22:24:17 GMT
 >>>>>>> trying to filter
+=======
+      - '1573'
+      content-type:
+      - application/json
+      date:
+      - Tue, 13 Oct 2020 17:27:53 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -765,10 +964,14 @@ interactions:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - '1195'
 =======
       - '1198'
 >>>>>>> trying to filter
+=======
+      - '1199'
+>>>>>>> removing yaml
       x-powered-by:
       - ASP.NET
     status:
@@ -789,12 +992,17 @@ interactions:
       - -g -n
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: GET
@@ -803,16 +1011,22 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/scale-plan000002","name":"scale-plan000002","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17859,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17859","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 =======
         West","properties":{"serverFarmId":17397,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17397","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":14307,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_14307","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1553'
       content-type:
       - application/json
@@ -822,6 +1036,13 @@ interactions:
 =======
       - Thu, 10 Dec 2020 22:24:17 GMT
 >>>>>>> trying to filter
+=======
+      - '1533'
+      content-type:
+      - application/json
+      date:
+      - Tue, 13 Oct 2020 17:27:55 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -858,12 +1079,17 @@ interactions:
       - -g -n --number-of-workers
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: GET
@@ -872,16 +1098,22 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/scale-plan000002","name":"scale-plan000002","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17859,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17859","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 =======
         West","properties":{"serverFarmId":17397,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17397","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":14307,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_14307","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1553'
       content-type:
       - application/json
@@ -891,6 +1123,13 @@ interactions:
 =======
       - Thu, 10 Dec 2020 22:24:17 GMT
 >>>>>>> trying to filter
+=======
+      - '1533'
+      content-type:
+      - application/json
+      date:
+      - Tue, 13 Oct 2020 17:27:55 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -927,12 +1166,17 @@ interactions:
       - -g -n --number-of-workers
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: GET
@@ -941,16 +1185,22 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/scale-plan000002","name":"scale-plan000002","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17859,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17859","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 =======
         West","properties":{"serverFarmId":17397,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17397","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":14307,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_14307","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1553'
       content-type:
       - application/json
@@ -960,6 +1210,13 @@ interactions:
 =======
       - Thu, 10 Dec 2020 22:24:17 GMT
 >>>>>>> trying to filter
+=======
+      - '1533'
+      content-type:
+      - application/json
+      date:
+      - Tue, 13 Oct 2020 17:27:56 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -1003,12 +1260,17 @@ interactions:
       - -g -n --number-of-workers
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: PUT
@@ -1017,16 +1279,22 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/scale-plan000002","name":"scale-plan000002","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17859,"name":"scale-plan000002","sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":2},"workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":2,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":2,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17859","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":2}}'
 =======
         West","properties":{"serverFarmId":17397,"name":"scale-plan000002","sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":2},"workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":2,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":2,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17397","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":2}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":14307,"name":"scale-plan000002","sku":{"name":"B1","tier":"Basic","size":"B1","capacity":2},"workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":2,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":2,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_14307","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":null,"webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"B1","tier":"Basic","size":"B1","capacity":2}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1626'
       content-type:
       - application/json
@@ -1036,6 +1304,13 @@ interactions:
 =======
       - Thu, 10 Dec 2020 22:24:25 GMT
 >>>>>>> trying to filter
+=======
+      - '1573'
+      content-type:
+      - application/json
+      date:
+      - Tue, 13 Oct 2020 17:28:03 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
@@ -1054,10 +1329,14 @@ interactions:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - '1195'
 =======
       - '1196'
 >>>>>>> trying to filter
+=======
+      - '1198'
+>>>>>>> removing yaml
       x-powered-by:
       - ASP.NET
     status:
@@ -1078,12 +1357,17 @@ interactions:
       - -g -n
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing yaml
       accept-language:
       - en-US
     method: GET
@@ -1092,16 +1376,22 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/scale-plan000002","name":"scale-plan000002","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17859,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":2,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":2,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17859","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":2}}'
 =======
         West","properties":{"serverFarmId":17397,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":2,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":2,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17397","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":2}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":14307,"name":"scale-plan000002","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":2,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":2,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_14307","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":2}}'
+>>>>>>> removing yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
       - '1553'
       content-type:
       - application/json
@@ -1111,6 +1401,13 @@ interactions:
 =======
       - Thu, 10 Dec 2020 22:24:27 GMT
 >>>>>>> trying to filter
+=======
+      - '1533'
+      content-type:
+      - application/json
+      date:
+      - Tue, 13 Oct 2020 17:28:05 GMT
+>>>>>>> removing yaml
       expires:
       - '-1'
       pragma:
