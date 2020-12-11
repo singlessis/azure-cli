@@ -1414,6 +1414,7 @@ class WebappSSLImportCertTest(ScenarioTest):
                 webapp_name), cert_thumbprint)
         ])
 
+
 class WebappSSLSyncCertTest(ScenarioTest):
     @ResourceGroupPreparer(location=WINDOWS_ASP_LOCATION_WEBAPP)
     def test_webapp_ssl_sync(self, resource_group):
@@ -1424,7 +1425,6 @@ class WebappSSLSyncCertTest(ScenarioTest):
         # https://docs.microsoft.com/azure/app-service-web/web-sites-configure-ssl-certificate#bkmk_ssopenssl
         pfx_file = os.path.join(TEST_DIR, 'server.pfx')
         cert_password = 'test'
-        cert_thumbprint = '9E9735C45C792B03B3FFCCA614852B32EE71AD6B'
         cert_name = 'test-cert'
 
         pfx_file_2 = os.path.join(TEST_DIR, 'server2.pfx')
@@ -1443,7 +1443,7 @@ class WebappSSLSyncCertTest(ScenarioTest):
             cert_name, kv_name, pfx_file, cert_password))
 
         cert_import_name = self.cmd('webapp config ssl import --resource-group {} --name {}  --key-vault {} --key-vault-certificate-name {}'.format(resource_group, webapp_name, kv_name, cert_name)).get_output_in_json()['name']
-        
+
         self.cmd('keyvault certificate import --name {} --vault-name {} --file "{}" --password {}'.format(
             cert_name, kv_name, pfx_file_2, cert_password_2))
 
@@ -1457,6 +1457,7 @@ class WebappSSLSyncCertTest(ScenarioTest):
             JMESPathCheck("hostNameSslStates|[?name=='{}.azurewebsites.net']|[0].thumbprint".format(
                 webapp_name), cert_thumbprint_2)
         ])
+
 
 class WebappUndeleteTest(ScenarioTest):
     @AllowLargeResponse(8192)
