@@ -18,12 +18,17 @@ interactions:
       - -n -l
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-resource/12.0.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-resource/10.2.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-resource/10.2.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing more yaml
       accept-language:
       - en-US
     method: PUT
@@ -40,10 +45,14 @@ interactions:
       - application/json; charset=utf-8
       date:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - Fri, 18 Dec 2020 06:52:52 GMT
 =======
       - Thu, 10 Dec 2020 22:22:16 GMT
 >>>>>>> trying to filter
+=======
+      - Tue, 13 Oct 2020 17:23:52 GMT
+>>>>>>> removing more yaml
       expires:
       - '-1'
       pragma:
@@ -58,10 +67,14 @@ interactions:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - '1198'
 =======
       - '1199'
 >>>>>>> trying to filter
+=======
+      - '1197'
+>>>>>>> removing more yaml
     status:
       code: 200
       message: OK
@@ -80,12 +93,17 @@ interactions:
       - -g -n
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-resource/12.0.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-resource/10.2.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-resource/10.2.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing more yaml
       accept-language:
       - en-US
     method: GET
@@ -93,10 +111,14 @@ interactions:
   response:
     body:
 <<<<<<< HEAD
+<<<<<<< HEAD
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"japanwest","tags":{"product":"azurecli","cause":"automation","date":"2020-12-18T06:52:45Z"},"properties":{"provisioningState":"Succeeded"}}'
 =======
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"japanwest","tags":{"product":"azurecli","cause":"automation","date":"2020-12-10T22:22:11Z"},"properties":{"provisioningState":"Succeeded"}}'
 >>>>>>> trying to filter
+=======
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"japanwest","tags":{"product":"azurecli","cause":"automation","date":"2020-10-13T17:23:42Z"},"properties":{"provisioningState":"Succeeded"}}'
+>>>>>>> removing more yaml
     headers:
       cache-control:
       - no-cache
@@ -106,10 +128,14 @@ interactions:
       - application/json; charset=utf-8
       date:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - Fri, 18 Dec 2020 06:52:53 GMT
 =======
       - Thu, 10 Dec 2020 22:22:16 GMT
 >>>>>>> trying to filter
+=======
+      - Tue, 13 Oct 2020 17:23:53 GMT
+>>>>>>> removing more yaml
       expires:
       - '-1'
       pragma:
@@ -143,12 +169,17 @@ interactions:
       - -g -n
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing more yaml
       accept-language:
       - en-US
     method: POST
@@ -165,10 +196,14 @@ interactions:
       - application/json
       date:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - Fri, 18 Dec 2020 06:52:54 GMT
 =======
       - Thu, 10 Dec 2020 22:22:18 GMT
 >>>>>>> trying to filter
+=======
+      - Tue, 13 Oct 2020 17:23:53 GMT
+>>>>>>> removing more yaml
       expires:
       - '-1'
       pragma:
@@ -207,12 +242,17 @@ interactions:
       - -g -n
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-resource/12.0.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-resource/10.2.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-resource/10.2.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing more yaml
       accept-language:
       - en-US
     method: GET
@@ -220,10 +260,14 @@ interactions:
   response:
     body:
 <<<<<<< HEAD
+<<<<<<< HEAD
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"japanwest","tags":{"product":"azurecli","cause":"automation","date":"2020-12-18T06:52:45Z"},"properties":{"provisioningState":"Succeeded"}}'
 =======
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"japanwest","tags":{"product":"azurecli","cause":"automation","date":"2020-12-10T22:22:11Z"},"properties":{"provisioningState":"Succeeded"}}'
 >>>>>>> trying to filter
+=======
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"japanwest","tags":{"product":"azurecli","cause":"automation","date":"2020-10-13T17:23:42Z"},"properties":{"provisioningState":"Succeeded"}}'
+>>>>>>> removing more yaml
     headers:
       cache-control:
       - no-cache
@@ -233,10 +277,14 @@ interactions:
       - application/json; charset=utf-8
       date:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - Fri, 18 Dec 2020 06:52:54 GMT
 =======
       - Thu, 10 Dec 2020 22:22:17 GMT
 >>>>>>> trying to filter
+=======
+      - Tue, 13 Oct 2020 17:23:54 GMT
+>>>>>>> removing more yaml
       expires:
       - '-1'
       pragma:
@@ -270,12 +318,17 @@ interactions:
       - -g -n
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing more yaml
       accept-language:
       - en-US
     method: PUT
@@ -284,25 +337,34 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/planInOneRG","name":"planInOneRG","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17836,"name":"planInOneRG","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17836","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 =======
         West","properties":{"serverFarmId":17392,"name":"planInOneRG","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17392","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":18823,"name":"planInOneRG","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-011_18823","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
+>>>>>>> removing more yaml
     headers:
       cache-control:
       - no-cache
       content-length:
-      - '1514'
+      - '1494'
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
 <<<<<<< HEAD
       - Fri, 18 Dec 2020 06:53:08 GMT
 =======
       - Thu, 10 Dec 2020 22:22:32 GMT
 >>>>>>> trying to filter
+=======
+      - Tue, 13 Oct 2020 17:24:07 GMT
+>>>>>>> removing more yaml
       expires:
       - '-1'
       pragma:
@@ -321,10 +383,14 @@ interactions:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - '1196'
 =======
       - '1199'
 >>>>>>> trying to filter
+=======
+      - '1198'
+>>>>>>> removing more yaml
       x-powered-by:
       - ASP.NET
     status:
@@ -345,12 +411,17 @@ interactions:
       - -g -n --plan
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing more yaml
       accept-language:
       - en-US
     method: GET
@@ -359,25 +430,34 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/planInOneRG","name":"planInOneRG","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17836,"name":"planInOneRG","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17836","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 =======
         West","properties":{"serverFarmId":17392,"name":"planInOneRG","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17392","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":18823,"name":"planInOneRG","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-011_18823","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
+>>>>>>> removing more yaml
     headers:
       cache-control:
       - no-cache
       content-length:
-      - '1514'
+      - '1494'
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
 <<<<<<< HEAD
       - Fri, 18 Dec 2020 06:53:10 GMT
 =======
       - Thu, 10 Dec 2020 22:22:32 GMT
 >>>>>>> trying to filter
+=======
+      - Tue, 13 Oct 2020 17:24:09 GMT
+>>>>>>> removing more yaml
       expires:
       - '-1'
       pragma:
@@ -419,12 +499,17 @@ interactions:
       - -g -n --plan
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing more yaml
       accept-language:
       - en-US
     method: POST
@@ -441,10 +526,14 @@ interactions:
       - application/json
       date:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - Fri, 18 Dec 2020 06:53:10 GMT
 =======
       - Thu, 10 Dec 2020 22:22:33 GMT
 >>>>>>> trying to filter
+=======
+      - Tue, 13 Oct 2020 17:24:09 GMT
+>>>>>>> removing more yaml
       expires:
       - '-1'
       pragma:
@@ -483,12 +572,17 @@ interactions:
       - -g -n --plan
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing more yaml
       accept-language:
       - en-US
     method: GET
@@ -497,25 +591,34 @@ interactions:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/planInOneRG","name":"planInOneRG","type":"Microsoft.Web/serverfarms","kind":"app","location":"Japan
 <<<<<<< HEAD
+<<<<<<< HEAD
         West","properties":{"serverFarmId":17836,"name":"planInOneRG","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"a1bfa635-f2bf-42f1-86b5-848c674fc321","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17836","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 =======
         West","properties":{"serverFarmId":17392,"name":"planInOneRG","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"cd8e0c02-3a22-4a19-8a6a-46e9e4e5cb86","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
         West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-013_17392","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"azBalancing":false},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"serverFarmId":18823,"name":"planInOneRG","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-JapanWestwebspace","subscription":"e483435e-282d-4ac1-92b5-d6123f2aa360","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":3,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"Japan
+        West","perSiteScaling":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"app","resourceGroup":"clitest.rg000001","reserved":false,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-os1-011_18823","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null},"sku":{"name":"B1","tier":"Basic","size":"B1","family":"B","capacity":1}}'
+>>>>>>> removing more yaml
     headers:
       cache-control:
       - no-cache
       content-length:
-      - '1514'
+      - '1494'
       content-type:
       - application/json
       date:
+<<<<<<< HEAD
 <<<<<<< HEAD
       - Fri, 18 Dec 2020 06:53:12 GMT
 =======
       - Thu, 10 Dec 2020 22:22:35 GMT
 >>>>>>> trying to filter
+=======
+      - Tue, 13 Oct 2020 17:24:10 GMT
+>>>>>>> removing more yaml
       expires:
       - '-1'
       pragma:
@@ -556,12 +659,17 @@ interactions:
       - -g -n --plan
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing more yaml
       accept-language:
       - en-US
     method: POST
@@ -578,10 +686,14 @@ interactions:
       - application/json
       date:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - Fri, 18 Dec 2020 06:53:12 GMT
 =======
       - Thu, 10 Dec 2020 22:22:35 GMT
 >>>>>>> trying to filter
+=======
+      - Tue, 13 Oct 2020 17:24:10 GMT
+>>>>>>> removing more yaml
       expires:
       - '-1'
       pragma:
@@ -606,7 +718,7 @@ interactions:
 - request:
     body: '{"location": "Japan West", "properties": {"serverFarmId": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/planInOneRG",
       "reserved": false, "isXenon": false, "hyperV": false, "siteConfig": {"netFrameworkVersion":
-      "v4.6", "appSettings": [{"name": "WEBSITE_NODE_DEFAULT_VERSION", "value": "10.14.1"}],
+      "v4.6", "appSettings": [{"name": "WEBSITE_NODE_DEFAULT_VERSION", "value": "10.14"}],
       "localMySqlEnabled": false, "http20Enabled": true}, "scmSiteAlsoStopped": false,
       "httpsOnly": false}}'
     headers:
@@ -619,12 +731,13 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '532'
+      - '530'
       Content-Type:
       - application/json; charset=utf-8
       ParameterSetName:
       - -g -n --plan
       User-Agent:
+<<<<<<< HEAD
 <<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
@@ -632,6 +745,10 @@ interactions:
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing more yaml
       accept-language:
       - en-US
     method: PUT
@@ -639,6 +756,7 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000002/providers/Microsoft.Web/sites/webInOtherRG","name":"webInOtherRG","type":"Microsoft.Web/sites","kind":"app","location":"Japan
+<<<<<<< HEAD
 <<<<<<< HEAD
         West","properties":{"name":"webInOtherRG","state":"Running","hostNames":["webinotherrg.azurewebsites.net"],"webSpace":"clitest.rg000001-JapanWestwebspace","selfLink":"https://waws-prod-os1-013.api.azurewebsites.windows.net:454/subscriptions/00000000-0000-0000-0000-000000000000/webspaces/clitest.rg000001-JapanWestwebspace/sites/webInOtherRG","repositorySiteName":"webInOtherRG","owner":null,"usageState":"Normal","enabled":true,"adminEnabled":true,"enabledHostNames":["webinotherrg.azurewebsites.net","webinotherrg.scm.azurewebsites.net"],"siteProperties":{"metadata":null,"properties":[{"name":"LinuxFxVersion","value":""},{"name":"WindowsFxVersion","value":null}],"appSettings":null},"availabilityState":"Normal","sslCertificates":null,"csrs":[],"cers":null,"siteMode":null,"hostNameSslStates":[{"name":"webinotherrg.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"thumbprint":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Standard"},{"name":"webinotherrg.scm.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"thumbprint":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Repository"}],"computeMode":null,"serverFarm":null,"serverFarmId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/planInOneRG","reserved":false,"isXenon":false,"hyperV":false,"lastModifiedTimeUtc":"2020-12-18T06:53:21.09","storageRecoveryDefaultState":"Running","contentAvailabilityState":"Normal","runtimeAvailabilityState":"Normal","siteConfig":{"numberOfWorkers":null,"defaultDocuments":null,"netFrameworkVersion":null,"phpVersion":null,"pythonVersion":null,"nodeVersion":null,"powerShellVersion":null,"linuxFxVersion":null,"windowsFxVersion":null,"requestTracingEnabled":null,"remoteDebuggingEnabled":null,"remoteDebuggingVersion":null,"httpLoggingEnabled":null,"azureMonitorLogCategories":null,"acrUseManagedIdentityCreds":false,"acrUserManagedIdentityID":null,"logsDirectorySizeLimit":null,"detailedErrorLoggingEnabled":null,"publishingUsername":null,"publishingPassword":null,"appSettings":null,"azureStorageAccounts":null,"metadata":null,"connectionStrings":null,"machineKey":null,"handlerMappings":null,"documentRoot":null,"scmType":null,"use32BitWorkerProcess":null,"webSocketsEnabled":null,"alwaysOn":null,"javaVersion":null,"javaContainer":null,"javaContainerVersion":null,"appCommandLine":null,"managedPipelineMode":null,"virtualApplications":null,"winAuthAdminState":null,"winAuthTenantState":null,"customAppPoolIdentityAdminState":null,"customAppPoolIdentityTenantState":null,"runtimeADUser":null,"runtimeADUserPassword":null,"loadBalancing":null,"routingRules":null,"experiments":null,"limits":null,"autoHealEnabled":null,"autoHealRules":null,"tracingOptions":null,"vnetName":null,"vnetRouteAllEnabled":null,"vnetPrivatePortsCount":null,"cors":null,"push":null,"apiDefinition":null,"apiManagementConfig":null,"autoSwapSlotName":null,"localMySqlEnabled":null,"managedServiceIdentityId":null,"xManagedServiceIdentityId":null,"ipSecurityRestrictions":[{"ipAddress":"Any","action":"Allow","priority":1,"name":"Allow
         all","description":"Allow all access"}],"scmIpSecurityRestrictions":[{"ipAddress":"Any","action":"Allow","priority":1,"name":"Allow
@@ -648,10 +766,16 @@ interactions:
         all","description":"Allow all access"}],"scmIpSecurityRestrictions":[{"ipAddress":"Any","action":"Allow","priority":1,"name":"Allow
         all","description":"Allow all access"}],"scmIpSecurityRestrictionsUseMain":null,"http20Enabled":null,"minTlsVersion":null,"scmMinTlsVersion":null,"ftpsState":null,"preWarmedInstanceCount":null,"functionAppScaleLimit":null,"healthCheckPath":null,"fileChangeAuditEnabled":null,"functionsRuntimeScaleMonitoringEnabled":null,"websiteTimeZone":null,"minimumElasticInstanceCount":0},"deploymentId":"webInOtherRG","trafficManagerHostNames":null,"sku":"Basic","scmSiteAlsoStopped":false,"targetSwapSlot":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"clientAffinityEnabled":true,"clientCertEnabled":false,"clientCertMode":"Required","clientCertExclusionPaths":null,"hostNamesDisabled":false,"domainVerificationIdentifiers":null,"customDomainVerificationId":"CD3ED0E77C1655DB516D33D894E3191E8506647D63389E327890C4FE48D5695C","kind":"app","inboundIpAddress":"40.74.100.129","possibleInboundIpAddresses":"40.74.100.129","ftpUsername":"webInOtherRG\\$webInOtherRG","ftpsHostName":"ftps://waws-prod-os1-013.ftp.azurewebsites.windows.net/site/wwwroot","outboundIpAddresses":"40.74.100.129,40.74.85.64,40.74.126.115,40.74.125.67,40.74.128.17","possibleOutboundIpAddresses":"40.74.100.129,40.74.85.64,40.74.126.115,40.74.125.67,40.74.128.17,40.74.127.201,40.74.128.130,23.100.108.106,40.74.128.122,40.74.128.53","containerSize":0,"dailyMemoryTimeQuota":0,"suspendedTill":null,"siteDisabledReason":0,"functionExecutionUnitsCache":null,"maxNumberOfWorkers":null,"homeStamp":"waws-prod-os1-013","cloningInfo":null,"hostingEnvironmentId":null,"tags":null,"resourceGroup":"clitest.rg000002","defaultHostName":"webinotherrg.azurewebsites.net","slotSwapStatus":null,"httpsOnly":false,"redundancyMode":"None","inProgressOperationId":null,"geoDistributions":null,"privateEndpointConnections":null,"buildVersion":null,"targetBuildVersion":null,"migrationState":null}}'
 >>>>>>> trying to filter
+=======
+        West","properties":{"name":"webInOtherRG","state":"Running","hostNames":["webinotherrg.azurewebsites.net"],"webSpace":"clitest.rg000001-JapanWestwebspace","selfLink":"https://waws-prod-os1-011.api.azurewebsites.windows.net:454/subscriptions/00000000-0000-0000-0000-000000000000/webspaces/clitest.rg000001-JapanWestwebspace/sites/webInOtherRG","repositorySiteName":"webInOtherRG","owner":null,"usageState":"Normal","enabled":true,"adminEnabled":true,"enabledHostNames":["webinotherrg.azurewebsites.net","webinotherrg.scm.azurewebsites.net"],"siteProperties":{"metadata":null,"properties":[{"name":"LinuxFxVersion","value":""},{"name":"WindowsFxVersion","value":null}],"appSettings":null},"availabilityState":"Normal","sslCertificates":null,"csrs":[],"cers":null,"siteMode":null,"hostNameSslStates":[{"name":"webinotherrg.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"thumbprint":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Standard"},{"name":"webinotherrg.scm.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"thumbprint":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Repository"}],"computeMode":null,"serverFarm":null,"serverFarmId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/planInOneRG","reserved":false,"isXenon":false,"hyperV":false,"lastModifiedTimeUtc":"2020-10-13T17:24:16.85","storageRecoveryDefaultState":"Running","contentAvailabilityState":"Normal","runtimeAvailabilityState":"Normal","siteConfig":{"numberOfWorkers":null,"defaultDocuments":null,"netFrameworkVersion":null,"phpVersion":null,"pythonVersion":null,"nodeVersion":null,"powerShellVersion":null,"linuxFxVersion":null,"windowsFxVersion":null,"requestTracingEnabled":null,"remoteDebuggingEnabled":null,"remoteDebuggingVersion":null,"httpLoggingEnabled":null,"azureMonitorLogCategories":null,"acrUseManagedIdentityCreds":false,"acrUserManagedIdentityID":null,"logsDirectorySizeLimit":null,"detailedErrorLoggingEnabled":null,"publishingUsername":null,"publishingPassword":null,"appSettings":null,"azureStorageAccounts":null,"metadata":null,"connectionStrings":null,"machineKey":null,"handlerMappings":null,"documentRoot":null,"scmType":null,"use32BitWorkerProcess":null,"webSocketsEnabled":null,"alwaysOn":null,"javaVersion":null,"javaContainer":null,"javaContainerVersion":null,"appCommandLine":null,"managedPipelineMode":null,"virtualApplications":null,"winAuthAdminState":null,"winAuthTenantState":null,"customAppPoolIdentityAdminState":null,"customAppPoolIdentityTenantState":null,"runtimeADUser":null,"runtimeADUserPassword":null,"loadBalancing":null,"routingRules":null,"experiments":null,"limits":null,"autoHealEnabled":null,"autoHealRules":null,"tracingOptions":null,"vnetName":null,"vnetRouteAllEnabled":null,"cors":null,"push":null,"apiDefinition":null,"apiManagementConfig":null,"autoSwapSlotName":null,"localMySqlEnabled":null,"managedServiceIdentityId":null,"xManagedServiceIdentityId":null,"ipSecurityRestrictions":[{"ipAddress":"Any","action":"Allow","priority":1,"name":"Allow
+        all","description":"Allow all access"}],"scmIpSecurityRestrictions":[{"ipAddress":"Any","action":"Allow","priority":1,"name":"Allow
+        all","description":"Allow all access"}],"scmIpSecurityRestrictionsUseMain":null,"http20Enabled":null,"minTlsVersion":null,"scmMinTlsVersion":null,"ftpsState":null,"preWarmedInstanceCount":null,"functionAppScaleLimit":null,"healthCheckPath":null,"fileChangeAuditEnabled":null,"functionsRuntimeScaleMonitoringEnabled":null,"websiteTimeZone":null,"minimumElasticInstanceCount":0},"deploymentId":"webInOtherRG","trafficManagerHostNames":null,"sku":"Basic","scmSiteAlsoStopped":false,"targetSwapSlot":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"clientAffinityEnabled":true,"clientCertEnabled":false,"clientCertMode":"Required","clientCertExclusionPaths":null,"hostNamesDisabled":false,"domainVerificationIdentifiers":null,"customDomainVerificationId":"30E3673979DFB5673924412D39370809E608E2DE4E889BD01C7B80FC38A57EED","kind":"app","inboundIpAddress":"104.215.11.176","possibleInboundIpAddresses":"104.215.11.176","ftpUsername":"webInOtherRG\\$webInOtherRG","ftpsHostName":"ftps://waws-prod-os1-011.ftp.azurewebsites.windows.net/site/wwwroot","outboundIpAddresses":"104.215.11.176,104.215.12.60,104.215.10.163,104.215.12.212,104.215.8.97","possibleOutboundIpAddresses":"104.215.11.176,104.215.12.60,104.215.10.163,104.215.12.212,104.215.8.97,104.215.12.167,104.215.13.127","containerSize":0,"dailyMemoryTimeQuota":0,"suspendedTill":null,"siteDisabledReason":0,"functionExecutionUnitsCache":null,"maxNumberOfWorkers":null,"homeStamp":"waws-prod-os1-011","cloningInfo":null,"hostingEnvironmentId":null,"tags":null,"resourceGroup":"clitest.rg000002","defaultHostName":"webinotherrg.azurewebsites.net","slotSwapStatus":null,"httpsOnly":false,"redundancyMode":"None","inProgressOperationId":null,"geoDistributions":null,"privateEndpointConnections":null,"buildVersion":null,"targetBuildVersion":null,"migrationState":null}}'
+>>>>>>> removing more yaml
     headers:
       cache-control:
       - no-cache
       content-length:
+<<<<<<< HEAD
 <<<<<<< HEAD
       - '5737'
       content-type:
@@ -662,13 +786,20 @@ interactions:
       - '"1D6D50A7986AC6B"'
 =======
       - '5742'
+=======
+      - '5682'
+>>>>>>> removing more yaml
       content-type:
       - application/json
       date:
-      - Thu, 10 Dec 2020 22:23:00 GMT
+      - Tue, 13 Oct 2020 17:24:36 GMT
       etag:
+<<<<<<< HEAD
       - '"1D6CF42FA87C000"'
 >>>>>>> trying to filter
+=======
+      - '"1D6A185AE241E95"'
+>>>>>>> removing more yaml
       expires:
       - '-1'
       pragma:
@@ -711,12 +842,17 @@ interactions:
       - -g -n --plan
       User-Agent:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - python/3.8.6 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.16.0
 =======
       - python/3.8.0 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
         azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.14.1
 >>>>>>> trying to filter
+=======
+      - python/3.6.4 (Darwin-19.6.0-x86_64-i386-64bit) msrest/0.6.18 msrest_azure/0.6.3
+        azure-mgmt-web/0.48.0 Azure-SDK-For-Python AZURECLI/2.12.1
+>>>>>>> removing more yaml
       accept-language:
       - en-US
     method: POST
@@ -725,6 +861,7 @@ interactions:
     body:
       string: <publishData><publishProfile profileName="webInOtherRG - Web Deploy"
         publishMethod="MSDeploy" publishUrl="webinotherrg.scm.azurewebsites.net:443"
+<<<<<<< HEAD
 <<<<<<< HEAD
         msdeploySite="webInOtherRG" userName="$webInOtherRG" userPWD="vS1jNxDKSNmrj0LyNWRe9CtbqBciG4ymXjdpyBsmEuu1PbBMLlrWv7TviLGt"
         destinationAppUrl="http://webinotherrg.azurewebsites.net" SQLServerDBConnectionString=""
@@ -754,6 +891,19 @@ interactions:
 =======
         ftpPassiveMode="True" userName="webInOtherRG\$webInOtherRG" userPWD="KPKP2t5K4Zdnq2i8BeJGqbPzmrqiizWmsXPYgSBluJHxpHRGxNngeJcNfymi"
 >>>>>>> trying to filter
+=======
+        msdeploySite="webInOtherRG" userName="$webInOtherRG" userPWD="2yEzig3ZCA03QeZ7YEqkaES6PpNsXbPHjEqnxsB9dnzzv8kw2q1Mxw2drJF2"
+        destinationAppUrl="http://webinotherrg.azurewebsites.net" SQLServerDBConnectionString=""
+        mySQLDBConnectionString="" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com"
+        webSystem="WebSites"><databases /></publishProfile><publishProfile profileName="webInOtherRG
+        - FTP" publishMethod="FTP" publishUrl="ftp://waws-prod-os1-011.ftp.azurewebsites.windows.net/site/wwwroot"
+        ftpPassiveMode="True" userName="webInOtherRG\$webInOtherRG" userPWD="2yEzig3ZCA03QeZ7YEqkaES6PpNsXbPHjEqnxsB9dnzzv8kw2q1Mxw2drJF2"
+        destinationAppUrl="http://webinotherrg.azurewebsites.net" SQLServerDBConnectionString=""
+        mySQLDBConnectionString="" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com"
+        webSystem="WebSites"><databases /></publishProfile><publishProfile profileName="webInOtherRG
+        - ReadOnly - FTP" publishMethod="FTP" publishUrl="ftp://waws-prod-os1-011dr.ftp.azurewebsites.windows.net/site/wwwroot"
+        ftpPassiveMode="True" userName="webInOtherRG\$webInOtherRG" userPWD="2yEzig3ZCA03QeZ7YEqkaES6PpNsXbPHjEqnxsB9dnzzv8kw2q1Mxw2drJF2"
+>>>>>>> removing more yaml
         destinationAppUrl="http://webinotherrg.azurewebsites.net" SQLServerDBConnectionString=""
         mySQLDBConnectionString="" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com"
         webSystem="WebSites"><databases /></publishProfile></publishData>
@@ -766,10 +916,14 @@ interactions:
       - application/xml
       date:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - Fri, 18 Dec 2020 06:53:41 GMT
 =======
       - Thu, 10 Dec 2020 22:23:01 GMT
 >>>>>>> trying to filter
+=======
+      - Tue, 13 Oct 2020 17:24:36 GMT
+>>>>>>> removing more yaml
       expires:
       - '-1'
       pragma:
