@@ -2468,7 +2468,7 @@ def import_ssl_cert(cmd, resource_group_name, name, key_vault, key_vault_certifi
                                                 certificate_envelope=kv_cert_def)
 
 
-def sync_kv_cert(cmd, resource_group_name, name, certificate_name, key_vault):
+def sync_kv_cert(cmd, resource_group_name, name, key_vault, certificate_thumbprint=None):
     Certificate = cmd.get_models('Certificate')
     client = web_client_factory(cmd.cli_ctx)
     webapp = client.web_apps.get(resource_group_name, name)
@@ -2478,32 +2478,39 @@ def sync_kv_cert(cmd, resource_group_name, name, certificate_name, key_vault):
     server_farm_id = webapp.server_farm_id
     location = webapp.location
 
-    cert = client.certificates.get(resource_group_name, certificate_name, filter=f"ServerFarmId eq {'server_farm_id'}")
+    key_vault_id = _format_key_vault_id(cmd.cli_ctx, key_vault, resource_group_name)
 
-    if cert is None:
-        no_cert_msg = "Cert with name {} is not associated with this site".format(certificate_name)
-        logger.warning(no_cert_msg)
-        return
-    if cert.key_vault_id is None:
-        no_kv_msg = 'In order to sync a cert, it must be associated with a key vault'
-        logger.warning(no_kv_msg)
-        return
-    if is_valid_resource_id(key_vault):
-        if key_vault != cert.key_vault_id:
-            kv_not_match = "Key Vault id does not match the key vault associated with this cert"
-            logger.warning(kv_not_match)
+    if certificate_thumbprint:
+        cert = client.certificates.list_by_resource_group(resource_group_name, filter=f"ServerFarmId eq {'server_farm_id'} and KeyVaultId eq {'key_vault_id'} and Thumbprint eq {'certificate_thumbprint'}")
+        if cert == None:
+            no_cert_msg = "no certificate with that thumbprint found associated with that site"
+            logger.warning(no_cert_msg)
             return
-    else:
-        if parse_resource_id(cert.key_vault_id)['name'] != key_vault:
-            kv_name_not_match = "Key Vault name does not match the key vault name associated with this cert"
-            logger.warning(kv_name_not_match)
-            return
-
-    kv_cert_def = Certificate(location=location, key_vault_id=cert.key_vault_id, password='',
+        
+        kv_cert_def = Certificate(location=location, key_vault_id=cert.key_vault_id, password='',
                               key_vault_secret_name=cert.key_vault_secret_name, server_farm_id=server_farm_id)
 
-    return client.certificates.create_or_update(name=certificate_name, resource_group_name=resource_group_name,
+        return client.certificates.create_or_update(name=certificate_name, resource_group_name=resource_group_name,
                                                 certificate_envelope=kv_cert_def)
+        
+    else: 
+        print(key_vault_id)
+        certs = list(client.certificates.list_by_resource_group(resource_group_name, filter=f"(ServerFarmId eq {'server_farm_id'})"))
+        if certs == None:
+            no_certs_msg = "There are no certs associated with this website to sync"
+        else: 
+            for c in certs:
+                print("hello")
+                print(c) 
+              #  kv_cert_def = Certificate(location=location, key_vault_id=c.key_vault_id, password='',
+                  #  key_vault_secret_name=c.key_vault_secret_name, server_farm_id=server_farm_id)
+             #   old_thumnbprint = c.thumbprint
+              #  new_cert = client.certificates.create_or_update(name=c.name, resource_group_name=resource_group_name,
+                                              #  certificate_envelope=kv_cert_def)
+             #   new_thumbprint = new_cert.thumbprint
+
+        
+
 
 
 def create_managed_ssl_cert(cmd, resource_group_name, name, hostname, slot=None):
