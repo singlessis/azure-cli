@@ -2494,20 +2494,30 @@ def sync_kv_cert(cmd, resource_group_name, name, key_vault, certificate_thumbpri
                                                 certificate_envelope=kv_cert_def)
         
     else: 
-        print(key_vault_id)
-        certs = list(client.certificates.list_by_resource_group(resource_group_name, filter=f"(ServerFarmId eq {'server_farm_id'})"))
+        certs = list(client.certificates.list_by_resource_group(resource_group_name, filter=f"(ServerFarmId eq {'server_farm_id'}) and KeyVaultId eq {'key_vault_id'}"))
         if certs == None:
-            no_certs_msg = "There are no certs associated with this website to sync"
-        else: 
+            no_certs_msg = "There are no certs associated with this website to sycn from this keyvault"
+            logger.warning(no_certs_msg)
+            return
+        else:
+            num_synced_certs = 0
             for c in certs:
-                print("hello")
-                print(c) 
-              #  kv_cert_def = Certificate(location=location, key_vault_id=c.key_vault_id, password='',
-                  #  key_vault_secret_name=c.key_vault_secret_name, server_farm_id=server_farm_id)
-             #   old_thumnbprint = c.thumbprint
-              #  new_cert = client.certificates.create_or_update(name=c.name, resource_group_name=resource_group_name,
-                                              #  certificate_envelope=kv_cert_def)
-             #   new_thumbprint = new_cert.thumbprint
+                kv_cert_def = Certificate(location=location, key_vault_id=c.key_vault_id, password='',
+                key_vault_secret_name=c.key_vault_secret_name, server_farm_id=server_farm_id)
+                old_thumbprint = c.thumbprint
+                new_cert = client.certificates.create_or_update(name=c.name, resource_group_name=resource_group_name,
+                                                                certificate_envelope=kv_cert_def)
+                new_thumbprint = new_cert.thumbprint
+                if (new_thumbprint != old_thumbprint):
+                    logging.info(f"Updated a cert from thumbprint: {'old_thumbprint'} to {'new_thumbprint'}")
+                    logging.info(new_cert)
+                    num_synced_certs = num_synced_certs + 1
+            if num_synced_certs == 0:
+                logger.info("No certificates needed to be synced")
+                return
+            else: 
+                return
+
 
         
 
