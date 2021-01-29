@@ -2505,6 +2505,7 @@ def sync_kv_cert(cmd, resource_group_name, name, key_vault, certificate_thumbpri
                 kv_cert_def = Certificate(location=location, key_vault_id=c.key_vault_id, password='',
                 key_vault_secret_name=c.key_vault_secret_name, server_farm_id=server_farm_id)
                 old_thumbprint = c.thumbprint
+                print(c.key_vault_secret_name)
                 new_cert = client.certificates.create_or_update(name=c.name, resource_group_name=resource_group_name,
                                                                 certificate_envelope=kv_cert_def)
                 new_thumbprint = new_cert.thumbprint
